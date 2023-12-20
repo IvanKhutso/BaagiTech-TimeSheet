@@ -1,7 +1,7 @@
 "'Time Sheet' As screen":
 
     "'Screen Background_3' As 'Screen Background'":
-        HeaderTitle: =Gallery2_4.Selected.Name
+        HeaderTitle: =gal_TimeSheet_MenuTab.Selected.Name
 
     lbl_TimeSheet_Date As label:
         Font: =Font.Georgia
@@ -145,14 +145,13 @@
         Y: =257
         ZIndex: =23
 
-    Gallery2_4 As gallery.galleryHorizontal:
+    gal_TimeSheet_MenuTab As gallery.galleryHorizontal:
         DelayItemLoading: =true
         Height: =100
         Items: =Col_Tabs
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =437
-        Width: =1343
-        X: =11
+        Width: =1366
         Y: =95
         ZIndex: =24
 

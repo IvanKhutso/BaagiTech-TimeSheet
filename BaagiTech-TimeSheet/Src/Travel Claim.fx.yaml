@@ -1,2 +1,41 @@
 "'Travel Claim' As screen":
 
+    "'Screen Background_2' As 'Screen Background'":
+        HeaderTitle: =Gallery2.Selected.Name
+
+    Gallery2_3 As gallery.galleryHorizontal:
+        DelayItemLoading: =true
+        Height: =100
+        Items: =Col_Tabs
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =437
+        Width: =1343
+        X: =11
+        Y: =95
+        ZIndex: =2
+
+        Rectangle1_3 As rectangle:
+            Fill: =RGBA(241, 244, 249, 1)
+            Height: =74
+            OnSelect: =Select(Parent)
+            Visible: =varSelectedTab = ThisItem.ID
+            Width: =437
+            Y: =16
+            ZIndex: =1
+
+        Button5_3 As button:
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(173, 216, 230, 1)
+            Font: =Font.Georgia
+            OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Text: =ThisItem.Name
+            Width: =177
+            X: =130
+            Y: =33
+            ZIndex: =2
+

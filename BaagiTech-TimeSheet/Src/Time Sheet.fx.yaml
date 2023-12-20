@@ -1,18 +1,7 @@
 "'Time Sheet' As screen":
 
-    header As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Fill: =RGBA(255, 255, 255, 1)
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Semibold
-        Height: =768
-        Size: =35
-        Text: =""
-        Width: =1366
-        ZIndex: =1
+    "'Screen Background_3' As 'Screen Background'":
+        HeaderTitle: =Gallery2.Selected.Name
 
     Gallery2 As gallery.galleryHorizontal:
         DelayItemLoading: =true
@@ -21,9 +10,9 @@
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =437
         Width: =1343
-        X: =23
-        Y: =80
-        ZIndex: =1
+        X: =11
+        Y: =95
+        ZIndex: =2
 
         Rectangle1 As rectangle:
             Fill: =RGBA(241, 244, 249, 1)
@@ -39,7 +28,7 @@
             Color: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(173, 216, 230, 1)
             Font: =Font.Georgia
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
             RadiusBottomLeft: =0
             RadiusBottomRight: =0
             RadiusTopLeft: =0
@@ -77,26 +66,9 @@
         RadiusTopLeft: =13
         RadiusTopRight: =13
         Text: ="Submit"
-        X: =1183
-        Y: =675
-        ZIndex: =8
-
-    Button4 As button:
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(173, 216, 230, 1)
-        Font: =Font.Georgia
-        Height: =69
-        HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(173, 216, 230, 1)
-        PressedFill: =RGBA(173, 216, 230, 1)
-        Size: =40
-        Text: ="Time Sheet"
-        Width: =1343
-        X: =12
-        Y: =11
-        ZIndex: =9
+        X: =1174
+        Y: =595
+        ZIndex: =4
 
     lbl_TimeSheet_Date As label:
         Font: =Font.Georgia
@@ -104,16 +76,16 @@
         Size: =16
         Text: |-
             ="Date:"
-        X: =48
-        Y: =412
-        ZIndex: =10
+        X: =46
+        Y: =575
+        ZIndex: =5
 
     dte_TimeSheet_Date As datepicker:
         BorderColor: =RGBA(173, 216, 230, 1)
         IconBackground: =RGBA(173, 216, 230, 1)
-        X: =48
-        Y: =452
-        ZIndex: =11
+        X: =46
+        Y: =615
+        ZIndex: =6
 
     lbl_TimeSheet_PeriodStartDate As label:
         Font: =Font.Georgia
@@ -125,15 +97,16 @@
         Width: =238
         X: =48
         Y: =213
-        ZIndex: =12
+        ZIndex: =7
 
     dte_TimeSheet_PeriodStartDate As datepicker:
         BorderColor: =RGBA(173, 216, 230, 1)
         DefaultDate: =DateAdd(Today(), -(Day(Today())) + 1)
+        DisplayMode: =DisplayMode.Disabled
         IconBackground: =RGBA(173, 216, 230, 1)
         X: =48
         Y: =254
-        ZIndex: =13
+        ZIndex: =8
 
     lbl_TimeSheet_PeriodEndDate As label:
         Font: =Font.Georgia
@@ -144,16 +117,17 @@
         Width: =226
         X: =425
         Y: =213
-        ZIndex: =14
+        ZIndex: =9
 
     dte_TimeSheet_PeriodEndDate As datepicker:
         BorderColor: =RGBA(173, 216, 230, 1)
         DefaultDate: |
             =DateValue(DateAdd(DateAdd(Today(), 1 - Day(Today())),-1))
+        DisplayMode: =DisplayMode.Disabled
         IconBackground: =RGBA(173, 216, 230, 1)
         X: =429
         Y: =253
-        ZIndex: =15
+        ZIndex: =10
 
     lbl_TimeSheet_Task As label:
         Font: =Font.Georgia
@@ -161,19 +135,19 @@
         Size: =16
         Text: |-
             ="Task:"
-        X: =48
-        Y: =500
-        ZIndex: =16
+        X: =46
+        Y: =404
+        ZIndex: =11
 
     TextInput3 As text:
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =
         Height: =121
         Mode: =TextMode.MultiLine
-        Width: =1137
-        X: =48
-        Y: =540
-        ZIndex: =17
+        Width: =1064
+        X: =46
+        Y: =444
+        ZIndex: =12
 
     lbl_TimeSheet_RegularHours As label:
         Font: =Font.Georgia
@@ -184,7 +158,7 @@
         Width: =226
         X: =48
         Y: =300
-        ZIndex: =18
+        ZIndex: =13
 
     lbl_TimeSheet_OverTimeHours As label:
         Font: =Font.Georgia
@@ -195,23 +169,25 @@
         Width: =226
         X: =429
         Y: =300
-        ZIndex: =19
+        ZIndex: =14
 
     TextInput4 As text:
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =8
+        DisplayMode: =DisplayMode.Disabled
         Width: =328
         X: =48
         Y: =339
-        ZIndex: =20
+        ZIndex: =15
 
     TextInput4_1 As text:
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =
+        DisplayMode: =DisplayMode.Disabled
         Width: =319
         X: =438
         Y: =339
-        ZIndex: =21
+        ZIndex: =16
 
     lbl_TimeSheet_Date_6 As label:
         Font: =Font.Georgia
@@ -220,18 +196,19 @@
         Text: |-
             ="Total Hours:"
         Width: =198
-        X: =1039
+        X: =947
         Y: =213
-        ZIndex: =22
+        ZIndex: =17
 
     TextInput4_2 As text:
         Align: =Align.Center
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =Sum(Filter(Timesheet,'Employee Email' = User().Email).Hours,Hours)
+        DisplayMode: =DisplayMode.Disabled
         Height: =126
         Size: =30
         Width: =163
-        X: =1039
+        X: =947
         Y: =253
-        ZIndex: =23
+        ZIndex: =18
 

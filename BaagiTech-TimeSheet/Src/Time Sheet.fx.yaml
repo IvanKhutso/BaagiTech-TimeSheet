@@ -1,20 +1,6 @@
 "'Time Sheet' As screen":
 
-    header As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Fill: =RGBA(255, 255, 255, 1)
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Semibold
-        Height: =768
-        Size: =35
-        Text: =""
-        Width: =1366
-        ZIndex: =1
-
-    Gallery2 As gallery.galleryHorizontal:
+    gal_TimeSheet_MenuTab As gallery.galleryHorizontal:
         DelayItemLoading: =true
         Height: =100
         Items: =Col_Tabs
@@ -50,7 +36,7 @@
             Y: =33
             ZIndex: =2
 
-    Button3 As button:
+    btn_TimeSheet_Submit As button:
         BorderThickness: =1
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(173, 216, 230, 1)
@@ -61,10 +47,10 @@
                           Defaults(Timesheet),
                           {
                              Date:dte_TimeSheet_Date.SelectedDate,
-                             'Overtime Hours':Value(TextInput4_1.Text),
-                             Task:TextInput3.Text,
-                             'Total Hours':Value(TextInput4_2.Text),
-                             'Regular Hours':Value(TextInput4.Text),
+                             'Overtime Hours':Value(txt_TimeSheet_OverTimeHours.Text),
+                             Task:txt_TimeSheet_Task.Text,
+                             'Total Hours':Value(txt_TimeSheet_TotalHours.Text),
+                             'Regular Hours':Value(txt_TimeSheet_RegularHours.Text),
                              'Employee Email':User().Email,
                              'Period Start  Date':dte_TimeSheet_PeriodStartDate.SelectedDate,
                              'Period End Date':dte_TimeSheet_PeriodEndDate.SelectedDate
@@ -81,7 +67,7 @@
         Y: =675
         ZIndex: =8
 
-    Button4 As button:
+    btn_TimeSheet_Header As button:
         BorderStyle: =BorderStyle.None
         BorderThickness: =0
         Color: =RGBA(0, 0, 0, 1)
@@ -165,7 +151,7 @@
         Y: =500
         ZIndex: =16
 
-    TextInput3 As text:
+    txt_TimeSheet_Task As text:
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =
         Height: =121
@@ -197,7 +183,7 @@
         Y: =300
         ZIndex: =19
 
-    TextInput4 As text:
+    txt_TimeSheet_RegularHours As text:
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =8
         Width: =328
@@ -205,7 +191,7 @@
         Y: =339
         ZIndex: =20
 
-    TextInput4_1 As text:
+    txt_TimeSheet_OverTimeHours As text:
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =
         Width: =319
@@ -224,7 +210,7 @@
         Y: =213
         ZIndex: =22
 
-    TextInput4_2 As text:
+    txt_TimeSheet_TotalHours As text:
         Align: =Align.Center
         BorderColor: =RGBA(173, 216, 230, 1)
         Default: =Sum(Filter(Timesheet,'Employee Email' = User().Email).Hours,Hours)

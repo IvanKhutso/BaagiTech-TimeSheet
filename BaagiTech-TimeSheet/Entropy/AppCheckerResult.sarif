@@ -14,29 +14,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "'Leave Application'.'Screen Background_1'.HeaderTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "'Leave Application'.'Screen Background_1'.HeaderTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Gallery2"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.Gallery2"
+                "member": "HeaderTitle",
+                "module": "Leave Application",
+                "type": "'Leave Application'.'Screen Background_1'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Gallery2"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -44,19 +54,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.Gallery2.TabIndex"
+                  "fullyQualifiedName": "'Leave Application'.'Screen Background_1'.HeaderTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.Gallery2.TabIndex",
+                  "fullyQualifiedName": "'Leave Application'.'Screen Background_1'.HeaderTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.Gallery2"
+                "member": "HeaderTitle",
+                "module": "Leave Application",
+                "type": "'Leave Application'.'Screen Background_1'"
               }
             }
           ],
@@ -64,9 +81,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 1
         },
         {
@@ -74,19 +91,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodEndDate.AccessibleLabel"
+                  "fullyQualifiedName": "'Leave Application'.'Screen Background_1'.HeaderTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodEndDate.AccessibleLabel",
+                  "fullyQualifiedName": "'Leave Application'.'Screen Background_1'.HeaderTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": ".Name"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.dte_TimeSheet_PeriodEndDate"
+                "member": "HeaderTitle",
+                "module": "Leave Application",
+                "type": "'Leave Application'.'Screen Background_1'"
               }
             }
           ],
@@ -94,9 +118,49 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.'Screen Background_3'.HeaderTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.'Screen Background_3'.HeaderTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Gallery2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "HeaderTitle",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.'Screen Background_3'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Gallery2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -104,19 +168,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput4_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Time Sheet'.'Screen Background_3'.HeaderTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput4_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Time Sheet'.'Screen Background_3'.HeaderTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "HeaderTitle",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.TextInput4_2"
+                "type": "'Time Sheet'.'Screen Background_3'"
               }
             }
           ],
@@ -124,9 +195,86 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.'Screen Background_3'.HeaderTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.'Screen Background_3'.HeaderTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": ".Name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "HeaderTitle",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.'Screen Background_3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.'Screen Background_2'.HeaderTitle"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.'Screen Background_2'.HeaderTitle",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Gallery2"
+                  }
+                }
+              },
+              "properties": {
+                "member": "HeaderTitle",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.'Screen Background_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Gallery2"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -134,19 +282,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodStartDate.AccessibleLabel"
+                  "fullyQualifiedName": "'Travel Claim'.'Screen Background_2'.HeaderTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodStartDate.AccessibleLabel",
+                  "fullyQualifiedName": "'Travel Claim'.'Screen Background_2'.HeaderTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.dte_TimeSheet_PeriodStartDate"
+                "member": "HeaderTitle",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.'Screen Background_2'"
               }
             }
           ],
@@ -154,29 +309,36 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput4.AccessibleLabel"
+                  "fullyQualifiedName": "'Travel Claim'.'Screen Background_2'.HeaderTitle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput4.AccessibleLabel",
+                  "fullyQualifiedName": "'Travel Claim'.'Screen Background_2'.HeaderTitle",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": ".Name"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.TextInput4"
+                "member": "HeaderTitle",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.'Screen Background_2'"
               }
             }
           ],
@@ -184,100 +346,10 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput4_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput4_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.TextInput4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_Date.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_Date.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.dte_TimeSheet_Date"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Time Sheet'.TextInput3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Time Sheet",
-                "type": "'Time Sheet'.TextInput3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -307,7 +379,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -337,37 +409,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.Gallery2_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.Gallery2_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Leave Application",
-                "type": "'Leave Application'.Gallery2_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -397,7 +439,307 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Application'.Gallery2_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Application'.Gallery2_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Application",
+                "type": "'Leave Application'.Gallery2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.gal_TimeSheet_MenuTab"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.gal_TimeSheet_MenuTab"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodEndDate.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodEndDate.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.dte_TimeSheet_PeriodEndDate"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_TotalHours.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_TotalHours.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.txt_TimeSheet_TotalHours"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodStartDate.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_PeriodStartDate.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.dte_TimeSheet_PeriodStartDate"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_RegularHours.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_RegularHours.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.txt_TimeSheet_RegularHours"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_OverTimeHours.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_OverTimeHours.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.txt_TimeSheet_OverTimeHours"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_Task.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_Task.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.txt_TimeSheet_Task"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_Date.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Time Sheet'.dte_TimeSheet_Date.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Time Sheet",
+                "type": "'Time Sheet'.dte_TimeSheet_Date"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -427,7 +769,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -457,7 +799,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -465,6 +807,37 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {

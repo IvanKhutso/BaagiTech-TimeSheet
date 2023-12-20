@@ -83,17 +83,6 @@
         Y: =675
         ZIndex: =8
 
-    lbl_TimeSheet_PeriodEndDate As label:
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Semibold
-        Size: =16
-        Text: |-
-            ="Period End Date:"
-        Width: =226
-        X: =425
-        Y: =213
-        ZIndex: =9
-
     btn_TimeSheet_Header As button:
         BorderStyle: =BorderStyle.None
         BorderThickness: =0
@@ -109,6 +98,17 @@
         Width: =1343
         X: =12
         Y: =11
+        ZIndex: =9
+
+    lbl_TimeSheet_PeriodEndDate As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Period End Date:"
+        Width: =226
+        X: =425
+        Y: =213
         ZIndex: =9
 
     dte_TimeSheet_PeriodEndDate As datepicker:

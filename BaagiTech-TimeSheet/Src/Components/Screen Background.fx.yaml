@@ -1,0 +1,60 @@
+"'Screen Background' As CanvasComponent":
+    Fill: =RGBA(0, 0, 0, 0)
+    HeaderTitle: ="Text"
+    Height: =Max(App.Height, App.MinScreenHeight)
+    Width: =Max(App.Width, App.MinScreenWidth)
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Button4_2 As button:
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        Height: =86
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(173, 216, 230, 1)
+        PressedFill: =RGBA(173, 216, 230, 1)
+        Size: =25
+        Text: ='Screen Background'.HeaderTitle
+        Width: =1333
+        X: =12
+        Y: =10
+        ZIndex: =1
+
+    Button4_3 As button:
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        Height: =85
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(173, 216, 230, 1)
+        PressedFill: =RGBA(173, 216, 230, 1)
+        Size: =25
+        Text: =""
+        Width: =1333
+        X: =15
+        Y: =670
+        ZIndex: =2
+
+    Label1 As label:
+        Height: =85
+        Size: =16
+        Text: ="Powered By"
+        Width: =132
+        X: =1097
+        Y: =670
+        ZIndex: =3
+
+    Image2 As image:
+        Height: =85
+        Image: =baagi_technology_cover
+        Width: =102
+        X: =1229
+        Y: =670
+        ZIndex: =4
+

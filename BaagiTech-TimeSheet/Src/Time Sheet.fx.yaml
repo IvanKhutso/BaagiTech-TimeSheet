@@ -1,5 +1,8 @@
 "'Time Sheet' As screen":
 
+    "'Screen Background_3' As 'Screen Background'":
+        HeaderTitle: =Gallery2.Selected.Name
+
     gal_TimeSheet_MenuTab As gallery.galleryHorizontal:
         DelayItemLoading: =true
         Height: =100
@@ -11,30 +14,43 @@
         Y: =80
         ZIndex: =1
 
-        Rectangle1 As rectangle:
-            Fill: =RGBA(241, 244, 249, 1)
-            Height: =74
-            OnSelect: =Select(Parent)
-            Visible: =varSelectedTab = ThisItem.ID
-            Width: =437
-            Y: =16
-            ZIndex: =1
+    lbl_TimeSheet_Date As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Date:"
+        X: =46
+        Y: =575
+        ZIndex: =5
 
-        Button5 As button:
-            BorderThickness: =1
-            Color: =RGBA(0, 0, 0, 1)
-            Fill: =RGBA(173, 216, 230, 1)
-            Font: =Font.Georgia
-            OnSelect: =Select(Parent)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Text: =ThisItem.Name
-            Width: =177
-            X: =130
-            Y: =33
-            ZIndex: =2
+    dte_TimeSheet_Date As datepicker:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        IconBackground: =RGBA(173, 216, 230, 1)
+        X: =46
+        Y: =615
+        ZIndex: =6
+
+    lbl_TimeSheet_PeriodStartDate As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =16
+        Text: |-
+            ="Period Start Date:"
+        Width: =238
+        X: =48
+        Y: =213
+        ZIndex: =7
+
+    dte_TimeSheet_PeriodStartDate As datepicker:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        DefaultDate: =DateAdd(Today(), -(Day(Today())) + 1)
+        DisplayMode: =DisplayMode.Disabled
+        IconBackground: =RGBA(173, 216, 230, 1)
+        X: =48
+        Y: =254
+        ZIndex: =8
 
     btn_TimeSheet_Submit As button:
         BorderThickness: =1
@@ -67,6 +83,17 @@
         Y: =675
         ZIndex: =8
 
+    lbl_TimeSheet_PeriodEndDate As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Period End Date:"
+        Width: =226
+        X: =425
+        Y: =213
+        ZIndex: =9
+
     btn_TimeSheet_Header As button:
         BorderStyle: =BorderStyle.None
         BorderThickness: =0
@@ -84,62 +111,15 @@
         Y: =11
         ZIndex: =9
 
-    lbl_TimeSheet_Date As label:
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Semibold
-        Size: =16
-        Text: |-
-            ="Date:"
-        X: =48
-        Y: =412
-        ZIndex: =10
-
-    dte_TimeSheet_Date As datepicker:
-        BorderColor: =RGBA(173, 216, 230, 1)
-        IconBackground: =RGBA(173, 216, 230, 1)
-        X: =48
-        Y: =452
-        ZIndex: =11
-
-    lbl_TimeSheet_PeriodStartDate As label:
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Semibold
-        Height: =41
-        Size: =16
-        Text: |-
-            ="Period Start Date:"
-        Width: =238
-        X: =48
-        Y: =213
-        ZIndex: =12
-
-    dte_TimeSheet_PeriodStartDate As datepicker:
-        BorderColor: =RGBA(173, 216, 230, 1)
-        DefaultDate: =DateAdd(Today(), -(Day(Today())) + 1)
-        IconBackground: =RGBA(173, 216, 230, 1)
-        X: =48
-        Y: =254
-        ZIndex: =13
-
-    lbl_TimeSheet_PeriodEndDate As label:
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Semibold
-        Size: =16
-        Text: |-
-            ="Period End Date:"
-        Width: =226
-        X: =425
-        Y: =213
-        ZIndex: =14
-
     dte_TimeSheet_PeriodEndDate As datepicker:
         BorderColor: =RGBA(173, 216, 230, 1)
         DefaultDate: |
             =DateValue(DateAdd(DateAdd(Today(), 1 - Day(Today())),-1))
+        DisplayMode: =DisplayMode.Disabled
         IconBackground: =RGBA(173, 216, 230, 1)
         X: =429
         Y: =253
-        ZIndex: =15
+        ZIndex: =10
 
     lbl_TimeSheet_Task As label:
         Font: =Font.Georgia
@@ -147,19 +127,9 @@
         Size: =16
         Text: |-
             ="Task:"
-        X: =48
-        Y: =500
-        ZIndex: =16
-
-    txt_TimeSheet_Task As text:
-        BorderColor: =RGBA(173, 216, 230, 1)
-        Default: =
-        Height: =121
-        Mode: =TextMode.MultiLine
-        Width: =1137
-        X: =48
-        Y: =540
-        ZIndex: =17
+        X: =46
+        Y: =404
+        ZIndex: =11
 
     lbl_TimeSheet_RegularHours As label:
         Font: =Font.Georgia
@@ -170,7 +140,7 @@
         Width: =226
         X: =48
         Y: =300
-        ZIndex: =18
+        ZIndex: =13
 
     lbl_TimeSheet_OverTimeHours As label:
         Font: =Font.Georgia
@@ -181,7 +151,28 @@
         Width: =226
         X: =429
         Y: =300
-        ZIndex: =19
+        ZIndex: =14
+
+    lbl_TimeSheet_Date_6 As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Total Hours:"
+        Width: =198
+        X: =947
+        Y: =213
+        ZIndex: =17
+
+    txt_TimeSheet_Task As text:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        Default: =
+        Height: =121
+        Mode: =TextMode.MultiLine
+        Width: =1137
+        X: =48
+        Y: =540
+        ZIndex: =17
 
     txt_TimeSheet_RegularHours As text:
         BorderColor: =RGBA(173, 216, 230, 1)
@@ -198,17 +189,6 @@
         X: =438
         Y: =339
         ZIndex: =21
-
-    lbl_TimeSheet_Date_6 As label:
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Semibold
-        Size: =16
-        Text: |-
-            ="Total Hours:"
-        Width: =198
-        X: =1039
-        Y: =213
-        ZIndex: =22
 
     txt_TimeSheet_TotalHours As text:
         Align: =Align.Center

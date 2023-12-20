@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.AccessibleLabel"
+                  "fullyQualifiedName": "'Time Sheet'.Gallery2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.AccessibleLabel",
+                  "fullyQualifiedName": "'Time Sheet'.Gallery2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.gal_TimeSheet_MenuTab"
+                "type": "'Time Sheet'.Gallery2"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.TabIndex"
+                  "fullyQualifiedName": "'Time Sheet'.Gallery2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.TabIndex",
+                  "fullyQualifiedName": "'Time Sheet'.Gallery2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.gal_TimeSheet_MenuTab"
+                "type": "'Time Sheet'.Gallery2"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_TotalHours.AccessibleLabel"
+                  "fullyQualifiedName": "'Time Sheet'.TextInput4_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_TotalHours.AccessibleLabel",
+                  "fullyQualifiedName": "'Time Sheet'.TextInput4_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.txt_TimeSheet_TotalHours"
+                "type": "'Time Sheet'.TextInput4_2"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_RegularHours.AccessibleLabel"
+                  "fullyQualifiedName": "'Time Sheet'.TextInput4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_RegularHours.AccessibleLabel",
+                  "fullyQualifiedName": "'Time Sheet'.TextInput4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.txt_TimeSheet_RegularHours"
+                "type": "'Time Sheet'.TextInput4"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_OverTimeHours.AccessibleLabel"
+                  "fullyQualifiedName": "'Time Sheet'.TextInput4_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_OverTimeHours.AccessibleLabel",
+                  "fullyQualifiedName": "'Time Sheet'.TextInput4_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.txt_TimeSheet_OverTimeHours"
+                "type": "'Time Sheet'.TextInput4_1"
               }
             }
           ],
@@ -254,19 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_Task.AccessibleLabel"
+                  "fullyQualifiedName": "'Time Sheet'.TextInput3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Time Sheet'.txt_TimeSheet_Task.AccessibleLabel",
+                  "fullyQualifiedName": "'Time Sheet'.TextInput3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Time Sheet",
-                "type": "'Time Sheet'.txt_TimeSheet_Task"
+                "type": "'Time Sheet'.TextInput3"
               }
             }
           ],

@@ -49,6 +49,78 @@
         Y: =215
         ZIndex: =3
 
+        "'Start Date_DataCard1' As typedDataCard.dateEditCard":
+            BorderColor: =RGBA(173, 216, 230, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="From"
+            Default: =ThisItem.'Start Date'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"From")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =true
+            Update: =DataCardValue6.SelectedDate
+            Width: =669
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+            DataCardKey6 As label:
+                AutoHeight: =true
+                Font: =Font.Georgia
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                Size: =16
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue6 As datepicker:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultDate: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                EndYear: =Year(Today())+100
+                Font: =Font.Georgia
+                IconBackground: =RGBA(173, 216, 230, 1)
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                Size: =16
+                StartYear: =1899
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                ZIndex: =2
+
+            ErrorMessage6 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue6.Y + DataCardValue6.Height
+                ZIndex: =3
+
+            StarVisible6 As label:
+                Align: =Align.Center
+                Height: =DataCardKey6.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey6.Y
+                ZIndex: =4
+
         "'Leave Type_DataCard1' As typedDataCard.comboBoxEditCard":
             BorderColor: =RGBA(173, 216, 230, 1)
             BorderStyle: =BorderStyle.Solid
@@ -120,6 +192,78 @@
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey2.Y
+                ZIndex: =4
+
+        "'End Date_DataCard1' As typedDataCard.dateEditCard":
+            BorderColor: =RGBA(173, 216, 230, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="To"
+            Default: =ThisItem.'End Date'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"To")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =true
+            Update: =DataCardValue7.SelectedDate
+            Width: =669
+            X: =0
+            Y: =1
+            ZIndex: =4
+
+            DataCardKey7 As label:
+                AutoHeight: =true
+                Font: =Font.Georgia
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                Size: =16
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue7 As datepicker:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultDate: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                EndYear: =Year(Today())+100
+                Font: =Font.Georgia
+                IconBackground: =RGBA(173, 216, 230, 1)
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                Size: =16
+                StartYear: =1899
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                ZIndex: =2
+
+            ErrorMessage7 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue7.Y + DataCardValue7.Height
+                ZIndex: =3
+
+            StarVisible7 As label:
+                Align: =Align.Center
+                Height: =DataCardKey7.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey7.Y
                 ZIndex: =4
 
         Days_DataCard1 As typedDataCard.textualEditCard:
@@ -198,150 +342,6 @@
                 Y: =DataCardKey3.Y
                 ZIndex: =4
 
-        "'Start Date_DataCard1' As typedDataCard.dateEditCard":
-            BorderColor: =RGBA(173, 216, 230, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="From"
-            Default: =ThisItem.'Start Date'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"From")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =true
-            Update: =DataCardValue6.SelectedDate
-            Width: =669
-            X: =0
-            Y: =0
-            ZIndex: =4
-
-            DataCardKey6 As label:
-                AutoHeight: =true
-                Font: =Font.Georgia
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =16
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue6 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                Font: =Font.Georgia
-                IconBackground: =RGBA(173, 216, 230, 1)
-                IsEditable: =true
-                PaddingBottom: =0
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                Size: =16
-                StartYear: =1899
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
-                ZIndex: =2
-
-            ErrorMessage6 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue6.Y + DataCardValue6.Height
-                ZIndex: =3
-
-            StarVisible6 As label:
-                Align: =Align.Center
-                Height: =DataCardKey6.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey6.Y
-                ZIndex: =4
-
-        "'End Date_DataCard1' As typedDataCard.dateEditCard":
-            BorderColor: =RGBA(173, 216, 230, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="To"
-            Default: =ThisItem.'End Date'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Leave],DataSourceInfo.DisplayName,"To")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =true
-            Update: =DataCardValue7.SelectedDate
-            Width: =669
-            X: =0
-            Y: =1
-            ZIndex: =4
-
-            DataCardKey7 As label:
-                AutoHeight: =true
-                Font: =Font.Georgia
-                FontWeight: =FontWeight.Semibold
-                Height: =34
-                Size: =16
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue7 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                Font: =Font.Georgia
-                IconBackground: =RGBA(173, 216, 230, 1)
-                IsEditable: =true
-                PaddingBottom: =0
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                Size: =16
-                StartYear: =1899
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
-                ZIndex: =2
-
-            ErrorMessage7 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue7.Y + DataCardValue7.Height
-                ZIndex: =3
-
-            StarVisible7 As label:
-                Align: =Align.Center
-                Height: =DataCardKey7.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey7.Y
-                ZIndex: =4
-
         Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
             BorderColor: =RGBA(173, 216, 230, 1)
             BorderStyle: =BorderStyle.Solid
@@ -412,4 +412,16 @@
                 Wrap: =false
                 Y: =DataCardKey8.Y
                 ZIndex: =4
+
+    btn_TimeSheet_Submit_1 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        OnSelect: |-
+            =SubmitForm(Form1
+            );ResetForm(Form1)
+        Text: ="Submit"
+        X: =1167
+        Y: =620
+        ZIndex: =4
 

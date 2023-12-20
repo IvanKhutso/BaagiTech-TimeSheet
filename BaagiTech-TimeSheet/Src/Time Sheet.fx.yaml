@@ -183,6 +183,12 @@
     btn_TimeSheet_Submit As button:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(173, 216, 230, 1)
+        OnSelect: |-
+            =Patch(
+                Timesheet,
+                Defaults(Timesheet),
+                {'Period Start  Date': Value(dte_TimeSheet_PeriodStartDate.SelectedDate),'Period End Date':Value(dte_TimeSheet_PeriodEndDate.SelectedDate),'Regular Hours':Value(txt_TimeSheet_RegularHours.Text),'Overtime Hours':Value(txt_TimeSheet_OverTimeHours.Text),'Total Hours':Value(txt_TimeSheet_TotalHours.Text),Date:Value(dte_TimeSheet_Date.SelectedDate),Task:txt_TimeSheet_Task.Text,'Employee Email':User().Email}
+            )
         Text: ="Submit"
         X: =1182
         Y: =615

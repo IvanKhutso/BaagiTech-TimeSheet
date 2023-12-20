@@ -356,7 +356,7 @@
       "MetaDataIDKey": "",
       "Name": "cmp_ApplyLeave_Background",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -460,7 +460,7 @@
       "MetaDataIDKey": "",
       "Name": "gal_applyLeave_MenuTab",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

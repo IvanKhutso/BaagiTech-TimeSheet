@@ -1,0 +1,53 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-10-31T17:36:46.2770000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{HasAttachments}": "Has attachments",
+      "{Identifier}": "Identifier",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Approval_Status": "Approval Status",
+      "Approval_Status#Id": "Approval Status Id",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "Employee_Number": "Employee Number",
+      "Employee_Number#Id": "Employee Number Id",
+      "From": "Start Date",
+      "ID": "ID",
+      "Leave_Type": "Leave Type",
+      "Leave_Type#Id": "Leave Type Id",
+      "Modified": "Modified",
+      "Num_Days": "Days",
+      "OData__ColorTag": "Color Tag",
+      "Title": "Title",
+      "To": "End Date"
+    },
+    "DatasetName": "https://baagitechcoza.sharepoint.com/sites/BaagiTimeSheetData",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Leave",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

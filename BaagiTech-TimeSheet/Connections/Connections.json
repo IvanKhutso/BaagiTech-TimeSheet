@@ -1,0 +1,43 @@
+{
+  "3b89a94e-b609-46a6-b04a-765f839d1040": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://baagitechcoza.sharepoint.com/sites/BaagiTimeSheetData": {
+        "dataSources": {
+          "Leave": {
+            "tableName": "c6f95def-7336-47aa-9eb4-982ab17d0beb"
+          },
+          "Timesheet": {
+            "tableName": "901078fe-479a-4444-b482-45356fb04dcc"
+          },
+          "Travel": {
+            "tableName": "86d1d017-a810-466f-a2d7-c2097e597c43"
+          },
+          "Users": {
+            "tableName": "b19eb005-c2fd-4107-acc8-e716382ce976"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Leave",
+      "Timesheet",
+      "Travel",
+      "Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3b89a94e-b609-46a6-b04a-765f839d1040"
+  }
+}

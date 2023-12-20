@@ -1,0 +1,237 @@
+"'Time Sheet' As screen":
+
+    header As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =768
+        Size: =35
+        Text: =""
+        Width: =1366
+        ZIndex: =1
+
+    Gallery2 As gallery.galleryHorizontal:
+        DelayItemLoading: =true
+        Height: =100
+        Items: =Col_Tabs
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =437
+        Width: =1343
+        X: =23
+        Y: =80
+        ZIndex: =1
+
+        Rectangle1 As rectangle:
+            Fill: =RGBA(241, 244, 249, 1)
+            Height: =74
+            OnSelect: =Select(Parent)
+            Visible: =varSelectedTab = ThisItem.ID
+            Width: =437
+            Y: =16
+            ZIndex: =1
+
+        Button5 As button:
+            BorderThickness: =1
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(173, 216, 230, 1)
+            Font: =Font.Georgia
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Text: =ThisItem.Name
+            Width: =177
+            X: =130
+            Y: =33
+            ZIndex: =2
+
+    Button3 As button:
+        BorderThickness: =1
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        OnSelect: |-
+            =Patch(
+                          Timesheet,
+                          Defaults(Timesheet),
+                          {
+                             Date:dte_TimeSheet_Date.SelectedDate,
+                             'Overtime Hours':Value(TextInput4_1.Text),
+                             Task:TextInput3.Text,
+                             'Total Hours':Value(TextInput4_2.Text),
+                             'Regular Hours':Value(TextInput4.Text),
+                             'Employee Email':User().Email,
+                             'Period Start  Date':dte_TimeSheet_PeriodStartDate.SelectedDate,
+                             'Period End Date':dte_TimeSheet_PeriodEndDate.SelectedDate
+                          }
+                      )
+            ;
+            Refresh(Timesheet)
+        RadiusBottomLeft: =13
+        RadiusBottomRight: =13
+        RadiusTopLeft: =13
+        RadiusTopRight: =13
+        Text: ="Submit"
+        X: =1183
+        Y: =675
+        ZIndex: =8
+
+    Button4 As button:
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        Height: =69
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(173, 216, 230, 1)
+        PressedFill: =RGBA(173, 216, 230, 1)
+        Size: =40
+        Text: ="Time Sheet"
+        Width: =1343
+        X: =12
+        Y: =11
+        ZIndex: =9
+
+    lbl_TimeSheet_Date As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Date:"
+        X: =48
+        Y: =412
+        ZIndex: =10
+
+    dte_TimeSheet_Date As datepicker:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        IconBackground: =RGBA(173, 216, 230, 1)
+        X: =48
+        Y: =452
+        ZIndex: =11
+
+    lbl_TimeSheet_PeriodStartDate As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =16
+        Text: |-
+            ="Period Start Date:"
+        Width: =238
+        X: =48
+        Y: =213
+        ZIndex: =12
+
+    dte_TimeSheet_PeriodStartDate As datepicker:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        DefaultDate: =DateAdd(Today(), -(Day(Today())) + 1)
+        IconBackground: =RGBA(173, 216, 230, 1)
+        X: =48
+        Y: =254
+        ZIndex: =13
+
+    lbl_TimeSheet_PeriodEndDate As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Period End Date:"
+        Width: =226
+        X: =425
+        Y: =213
+        ZIndex: =14
+
+    dte_TimeSheet_PeriodEndDate As datepicker:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        DefaultDate: |
+            =DateValue(DateAdd(DateAdd(Today(), 1 - Day(Today())),-1))
+        IconBackground: =RGBA(173, 216, 230, 1)
+        X: =429
+        Y: =253
+        ZIndex: =15
+
+    lbl_TimeSheet_Task As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Task:"
+        X: =48
+        Y: =500
+        ZIndex: =16
+
+    TextInput3 As text:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        Default: =
+        Height: =121
+        Mode: =TextMode.MultiLine
+        Width: =1137
+        X: =48
+        Y: =540
+        ZIndex: =17
+
+    lbl_TimeSheet_RegularHours As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Regular Hours:"
+        Width: =226
+        X: =48
+        Y: =300
+        ZIndex: =18
+
+    lbl_TimeSheet_OverTimeHours As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="OverTime Hours:"
+        Width: =226
+        X: =429
+        Y: =300
+        ZIndex: =19
+
+    TextInput4 As text:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        Default: =8
+        Width: =328
+        X: =48
+        Y: =339
+        ZIndex: =20
+
+    TextInput4_1 As text:
+        BorderColor: =RGBA(173, 216, 230, 1)
+        Default: =
+        Width: =319
+        X: =438
+        Y: =339
+        ZIndex: =21
+
+    lbl_TimeSheet_Date_6 As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Size: =16
+        Text: |-
+            ="Total Hours:"
+        Width: =198
+        X: =1039
+        Y: =213
+        ZIndex: =22
+
+    TextInput4_2 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(173, 216, 230, 1)
+        Default: =Sum(Filter(Timesheet,'Employee Email' = User().Email).Hours,Hours)
+        Height: =126
+        Size: =30
+        Width: =163
+        X: =1039
+        Y: =253
+        ZIndex: =23
+

@@ -1,0 +1,31 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =ClearCollect(Col_Tabs,{
+                ID: 1,
+                Name: "Time Sheet",
+                Logo: Icon.Clock,
+                Screen: 'Time Sheet'
+            },
+            {
+                ID: 2,
+                Name: "Apply Leave",
+                Logo: Icon.Leave,
+                Screen: 'Leave Application'
+            },
+            {
+                ID: 3,
+                Name: "Travel Claim",
+                Logo: Icon.Cars,
+                Screen: 'Travel Claim'
+            });
+            Set(varSelectedTab,1)
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

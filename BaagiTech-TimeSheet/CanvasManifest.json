@@ -134,6 +134,7 @@
   "ScreenOrder": [
     "Time Sheet",
     "Leave Application",
-    "Travel Claim"
+    "Travel Claim",
+    "Manager"
   ]
 }

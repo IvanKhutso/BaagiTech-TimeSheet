@@ -15,12 +15,13 @@
         ZIndex: =2
 
         Rectangle1_2 As rectangle:
-            Fill: =RGBA(241, 244, 249, 1)
-            Height: =74
+            Fill: =RGBA(215, 223, 240, 1)
+            Height: =5
             OnSelect: =Select(Parent)
             Visible: =varSelectedTab = ThisItem.ID
-            Width: =437
-            Y: =16
+            Width: =177
+            X: =130
+            Y: =85
             ZIndex: =1
 
         Button5_2 As button:
@@ -29,10 +30,10 @@
             Fill: =RGBA(173, 216, 230, 1)
             Font: =Font.Georgia
             OnSelect: =Navigate(ThisItem.Screen);Select(Parent)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
+            RadiusBottomLeft: =25
+            RadiusBottomRight: =25
+            RadiusTopLeft: =25
+            RadiusTopRight: =25
             Text: =ThisItem.Name
             Width: =177
             X: =130
@@ -302,7 +303,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =DateDiff(DataCardValue6.SelectedDate, DataCardValue7.SelectedDate, ThisItem.Days)
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.Disabled
                 Font: =Font.Georgia
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5

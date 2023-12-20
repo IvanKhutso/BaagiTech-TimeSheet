@@ -183,6 +183,7 @@
     btn_TimeSheet_Submit As button:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
         OnSelect: |-
             =Patch(
                 Timesheet,

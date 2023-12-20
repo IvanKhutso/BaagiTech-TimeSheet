@@ -135,6 +135,8 @@
     "Time Sheet",
     "Leave Application",
     "Travel Claim",
-    "Manager"
+    "Manager",
+    "Timesheet Approvals",
+    "Timesheet Details Approvals"
   ]
 }

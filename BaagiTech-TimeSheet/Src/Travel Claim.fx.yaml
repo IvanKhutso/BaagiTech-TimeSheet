@@ -1,9 +1,9 @@
 "'Travel Claim' As screen":
 
-    "'Screen Background_2' As 'Screen Background'":
-        HeaderTitle: =Gallery2.Selected.Name
+    "cmp_TravelClaim_Background As 'Screen Background'":
+        HeaderTitle: =gal_applyLeave_MenuTab.Selected.Name
 
-    Gallery2_3 As gallery.galleryHorizontal:
+    gal_TravelClaim_MenuTab As gallery.galleryHorizontal:
         DelayItemLoading: =true
         Height: =100
         Items: =Col_Tabs

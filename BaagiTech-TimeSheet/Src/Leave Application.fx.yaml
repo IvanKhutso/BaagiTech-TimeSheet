@@ -1,9 +1,9 @@
 "'Leave Application' As screen":
 
-    "'Screen Background_1' As 'Screen Background'":
-        HeaderTitle: =Gallery2.Selected.Name
+    "cmp_ApplyLeave_Background As 'Screen Background'":
+        HeaderTitle: =gal_applyLeave_MenuTab.Selected.Name
 
-    Gallery2_2 As gallery.galleryHorizontal:
+    gal_applyLeave_MenuTab As gallery.galleryHorizontal:
         DelayItemLoading: =true
         Height: =100
         Items: =Col_Tabs

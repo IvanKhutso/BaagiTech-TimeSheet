@@ -1,6 +1,6 @@
 "'Time Sheet' As screen":
 
-    "'Screen Background_3' As 'Screen Background'":
+    "cmp_TimeSheet_Background As 'Screen Background'":
         HeaderTitle: =gal_TimeSheet_MenuTab.Selected.Name
 
     lbl_TimeSheet_Date As label:

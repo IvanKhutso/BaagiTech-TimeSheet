@@ -101,8 +101,8 @@
         Text: |-
             ="Total Hours:"
         Width: =198
-        X: =1009
-        Y: =214
+        X: =847
+        Y: =213
         ZIndex: =17
 
     txt_TimeSheet_Task As text:
@@ -110,7 +110,7 @@
         Default: =
         Height: =121
         Mode: =TextMode.MultiLine
-        Width: =1124
+        Width: =961
         X: =48
         Y: =534
         ZIndex: =17
@@ -141,8 +141,8 @@
         Height: =126
         Size: =30
         Width: =163
-        X: =1009
-        Y: =257
+        X: =847
+        Y: =256
         ZIndex: =23
 
     gal_TimeSheet_MenuTab As gallery.galleryHorizontal:
@@ -179,4 +179,12 @@
             X: =130
             Y: =33
             ZIndex: =2
+
+    btn_TimeSheet_Submit As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Text: ="Submit"
+        X: =1182
+        Y: =615
+        ZIndex: =25
 

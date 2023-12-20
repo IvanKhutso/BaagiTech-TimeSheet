@@ -1,0 +1,12 @@
+"'Timesheet Details Approvals' As screen":
+
+    "'Screen Background_1' As 'Screen Background'":
+
+    Icon3 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =30
+        Y: =20
+        ZIndex: =2
+

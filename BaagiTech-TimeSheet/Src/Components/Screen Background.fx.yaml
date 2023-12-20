@@ -7,7 +7,7 @@
     Y: =0
     ZIndex: =1
 
-    Button4_2 As button:
+    btn_Header As button:
         BorderStyle: =BorderStyle.None
         BorderThickness: =0
         Color: =RGBA(0, 0, 0, 1)
@@ -24,7 +24,7 @@
         Y: =10
         ZIndex: =1
 
-    Button4_3 As button:
+    btn_Footer As button:
         BorderStyle: =BorderStyle.None
         BorderThickness: =0
         Color: =RGBA(0, 0, 0, 1)
@@ -41,7 +41,7 @@
         Y: =670
         ZIndex: =2
 
-    Label1 As label:
+    lbl_PoweredBy As label:
         Height: =85
         Size: =16
         Text: ="Powered By"
@@ -50,11 +50,33 @@
         Y: =670
         ZIndex: =3
 
-    Image2 As image:
+    lbl_Welcome As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =46
+        Text: =Concatenate("Welcome"," ",User().FullName)
+        Width: =245
+        X: =996
+        Y: =30
+        ZIndex: =4
+
+    img_Logo As image:
         Height: =85
         Image: =baagi_technology_cover
         Width: =102
         X: =1229
         Y: =670
-        ZIndex: =4
+        ZIndex: =5
+
+    img_User As image:
+        Height: =75
+        Image: =User().Image
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Width: =76
+        X: =1255
+        Y: =15
+        ZIndex: =6
 

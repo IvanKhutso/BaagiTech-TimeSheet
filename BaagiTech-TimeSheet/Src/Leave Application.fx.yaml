@@ -303,7 +303,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =DateDiff(DataCardValue6.SelectedDate, DataCardValue7.SelectedDate, ThisItem.Days)
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.Disabled
                 Font: =Font.Georgia
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5

@@ -681,15 +681,36 @@
           "NameMapSourceSchema": "?"
         },
         "WrapCount",
-        "TemplateSize",
-        "TemplatePadding",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "TemplateSize",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "TemplatePadding",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Layout",
         "Transition",
         "DelayItemLoading",
         "LoadingSpinner",
         "LoadingSpinnerColor",
         "DisplayMode",
-        "BorderColor",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "BorderColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledBorderColor",
         "PressedBorderColor",
         "HoverBorderColor",

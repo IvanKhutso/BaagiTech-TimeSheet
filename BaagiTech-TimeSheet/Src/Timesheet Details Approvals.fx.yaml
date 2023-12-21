@@ -5,7 +5,7 @@
     "gal_TimeshetDetails_CheckTasks As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
         BorderColor: =RGBA(255, 255, 255, 1)
         DelayItemLoading: =true
-        Height: =348
+        Height: =374
         Items: =Timesheet
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -14,7 +14,7 @@
         TemplateSize: =60
         Width: =1305
         X: =30
-        Y: =162
+        Y: =149
         ZIndex: =1
 
         lbl_TimesheetDetails_Tasks As label:
@@ -60,11 +60,11 @@
         BorderColor: =RGBA(0, 0, 0, 0)
         CheckboxBorderColor: =RGBA(166, 166, 166, 1)
         Font: =Font.Georgia
-        Height: =72
+        Height: =52
         Text: ="Check All Tasks"
         Width: =232
         X: =30
-        Y: =111
+        Y: =110
         ZIndex: =3
 
     lbl_TimesheetDetails_Action As label:
@@ -93,7 +93,7 @@
         Height: =102
         Width: =813
         X: =30
-        Y: =564
+        Y: =558
         ZIndex: =6
 
     Label1 As label:

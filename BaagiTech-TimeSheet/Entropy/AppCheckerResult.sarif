@@ -284,6 +284,186 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.icn_TimesheetApprovals_Backround_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.icn_TimesheetApprovals_Backround_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.icn_TimesheetApprovals_Backround_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.icn_TimesheetApprovals_Backround_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.icn_TimesheetApprovals_Backround_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.icn_TimesheetApprovals_Backround_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_GivenName_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_GivenName_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_GivenName_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_GivenName_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_GivenName_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_GivenName_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Time Sheet'.gal_TimeSheet_MenuTab.AccessibleLabel"
                 }
               ],
@@ -554,19 +734,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.txt_TimesheetApproval_Search.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.txt_TimesheetApproval_Search.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.txt_TimesheetApproval_Search"
+                "type": "'Timesheet Approvals'.Gallery4"
               }
             }
           ],
@@ -614,19 +794,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4"
+                "type": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround"
               }
             }
           ],
@@ -644,19 +824,289 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.txt_TimesheetApproval_Search.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.txt_TimesheetApproval_Search.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround"
+                "type": "'Timesheet Approvals'.txt_TimesheetApproval_Search"
               }
             }
           ],
@@ -1124,49 +1574,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.TabIndex"
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_1.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness",
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName"
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_1"
               }
             }
           ],
@@ -1184,19 +1604,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.TabIndex"
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.TabIndex",
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName"
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_1"
               }
             }
           ],
@@ -1214,19 +1634,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.FocusedBorderThickness"
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Name_1.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.FocusedBorderThickness",
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Name_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail"
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Name_1"
               }
             }
           ],
@@ -1244,19 +1664,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.TabIndex"
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Name_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.TabIndex",
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Name_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail"
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Name_1"
               }
             }
           ],
@@ -1274,168 +1694,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen1",
-                "type": "Screen1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Gallery5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Gallery5.AccessibleLabel",
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.Gallery5"
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2"
               }
             }
           ],
@@ -1453,19 +1724,739 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery5.TabIndex"
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery5.TabIndex",
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen1",
-                "type": "Screen1.Gallery5"
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.icn_TimesheetApprovals_Backround_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.icn_TimesheetApprovals_Backround_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.icn_TimesheetApprovals_Backround_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.icn_TimesheetApprovals_Backround_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.icn_TimesheetApprovals_Backround_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.icn_TimesheetApprovals_Backround_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Email_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_4.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_4.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Name_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_5.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_5.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_6.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_6.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Leave Status",
+                "type": "'Leave Status'.Gallery4_2.lbl_TimesheetApprovals_Mail_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_4.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_4.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Email_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_7.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_7.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_7.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_7.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "TimeSheet Landing Screen",
+                "type": "'TimeSheet Landing Screen'.Gallery4_1.lbl_TimesheetApprovals_Mail_7"
               }
             }
           ],
@@ -1506,7 +2497,7 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -1563,23 +2554,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
-              }
-            },
-            {
-              "id": "acc-ReadableScreenNameNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Revise screen name"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Give the screen  a title that describes what's on the screen or what it's used for."
-                ],
-                "level": "Low",
-                "primaryCategory": "accessibility",
-                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
               }
             },
             {

@@ -11,7 +11,6 @@
                   )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        ShowNavigation: =true
         ShowScrollbar: =false
         TemplatePadding: =4
         TemplateSize: =133
@@ -29,9 +28,11 @@
             ZIndex: =1
 
         lbl_TimesheetApprovals_Name As label:
+            Font: =Font.Georgia
             FontWeight: =FontWeight.Semibold
             Height: =46
             OnSelect: =Navigate('Timesheet Details Approvals')
+            Size: =16
             Text: |-
                 ="Name: " 
             Width: =85
@@ -39,9 +40,11 @@
             ZIndex: =2
 
         lbl_TimesheetApprovals_Email As label:
+            Font: =Font.Georgia
             FontWeight: =FontWeight.Semibold
             Height: =46
             OnSelect: =Navigate('Timesheet Details Approvals')
+            Size: =16
             Text: |-
                 ="Email: " 
             Width: =85
@@ -49,6 +52,7 @@
             ZIndex: =3
 
         lbl_TimesheetApprovals_GivenName As label:
+            Font: =Font.Georgia
             OnSelect: =Navigate('Timesheet Details Approvals')
             Text: =ThisItem.DisplayName
             Width: =257
@@ -57,6 +61,7 @@
             ZIndex: =4
 
         lbl_TimesheetApprovals_Mail As label:
+            Font: =Font.Georgia
             OnSelect: =Navigate('Timesheet Details Approvals')
             Text: =ThisItem.Mail
             Width: =277

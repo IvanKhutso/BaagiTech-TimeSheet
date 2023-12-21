@@ -21,6 +21,7 @@ App As appinfo:
             });
             ClearCollect(colAll_Users,Office365Users.SearchUser());
             Set(varSelectedTab,1)
+    StartScreen: ='TimeSheet Landing Screen'
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

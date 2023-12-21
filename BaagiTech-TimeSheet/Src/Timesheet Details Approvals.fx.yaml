@@ -5,7 +5,7 @@
     "gal_TimeshetDetails_CheckTasks As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
         BorderColor: =RGBA(255, 255, 255, 1)
         DelayItemLoading: =true
-        Height: =374
+        Height: =355
         Items: =Timesheet
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -113,7 +113,9 @@
         ZIndex: =8
 
     lbl_TimesheetDetails_TotalHours As label:
+        Height: =64
         Text: =
+        Width: =117
         X: =886
         Y: =580
         ZIndex: =9

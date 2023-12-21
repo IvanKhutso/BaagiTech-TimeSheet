@@ -10,8 +10,8 @@
         Height: =58
         HintText: ="🔍  Search..."
         Size: =15
-        Width: =1266
-        X: =33
+        Width: =1297
+        X: =20
         Y: =120
         ZIndex: =3
 
@@ -24,7 +24,7 @@
         ShowScrollbar: =false
         TemplatePadding: =4
         TemplateSize: =133
-        Width: =1346
+        Width: =1297
         WrapCount: =3
         X: =20
         Y: =199
@@ -61,15 +61,15 @@
         lbl_TimesheetApprovals_GivenName_2 As label:
             Font: =Font.Georgia
             Text: =ThisItem.DisplayName
-            Width: =324
+            Width: =347
             X: =96
-            Y: =21
+            Y: =13
             ZIndex: =4
 
         lbl_TimesheetApprovals_Mail_8 As label:
             Font: =Font.Georgia
             Text: =ThisItem.Mail
-            Width: =277
+            Width: =347
             X: =96
             Y: =59
             ZIndex: =7

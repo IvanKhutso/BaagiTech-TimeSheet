@@ -128,7 +128,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 157,
+        "PublishOrderIndex": 7,
         "Rules": [
           {
             "Category": "Data",
@@ -447,7 +447,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 158,
+        "PublishOrderIndex": 8,
         "Rules": [
           {
             "Category": "Data",
@@ -719,7 +719,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 159,
+        "PublishOrderIndex": 9,
         "Rules": [
           {
             "Category": "Data",
@@ -1110,7 +1110,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 160,
+        "PublishOrderIndex": 10,
         "Rules": [
           {
             "Category": "Data",
@@ -1411,7 +1411,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 161,
+        "PublishOrderIndex": 11,
         "Rules": [
           {
             "Category": "Data",
@@ -1719,7 +1719,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 162,
+        "PublishOrderIndex": 12,
         "Rules": [
           {
             "Category": "Data",
@@ -1936,7 +1936,7 @@
       "ZIndex",
       "HeaderTitle"
     ],
-    "LastModifiedTimestamp": "638387412020025437",
+    "LastModifiedTimestamp": "638387368598734017",
     "Name": "Screen Background",
     "Rules": [
       {
@@ -2011,7 +2011,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638387412020025437",
+  "LastModifiedTimestamp": "638387368598734017",
   "Name": "bff729eb4b014ba3869050e4a765547f",
   "OverridableProperties": {},
   "Version": "1.0"

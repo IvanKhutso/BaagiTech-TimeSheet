@@ -2,71 +2,67 @@
 
     "cmp_TimeSheetApprovals_Background As 'Screen Background'":
 
-    "gal_TimeSheetApproval_Records As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+    "Gallery4 As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =475
+        Height: =443
         Items: |-
-            =//Timesheet
-            /*Search(
-                Timesheet;
-                txt_TimesheetApproval_Search.Text; "EmployeeEmail")*/
-            
-            Search(colAll_Users,
+            =Search(colAll_Users,
                 txt_TimesheetApproval_Search.Text,"GivenName"
                   )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =80
-        Width: =1332
-        X: =15
-        Y: =198
+        ShowNavigation: =true
+        ShowScrollbar: =false
+        TemplatePadding: =4
+        TemplateSize: =133
+        Width: =1258
+        WrapCount: =3
+        X: =40
+        Y: =191
         ZIndex: =1
 
-        Title6 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.DisplayName
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+        Rectangle2 As rectangle:
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =132
+            OnSelect: =Navigate('Timesheet Details Approvals')
+            Width: =409
             ZIndex: =1
 
-        NextArrow5 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(0, 0, 0, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Navigate('Timesheet Details Approvals')
-            PaddingBottom: =12
-            PaddingLeft: =12
-            PaddingRight: =12
-            PaddingTop: =12
-            Tooltip: ="View item details"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+        Label3 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            OnSelect: =Select(Parent)
+            Text: |-
+                ="Name: " 
+            Width: =85
+            Y: =15
             ZIndex: =2
 
-        Separator5 As rectangle:
-            Height: =8
+        Label3_2 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =46
             OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
+            Text: |-
+                ="Email: " 
+            Width: =85
+            Y: =61
             ZIndex: =3
 
-        Rectangle5 As rectangle:
-            Height: =Parent.TemplateHeight - Separator5.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
+        Label4 As label:
+            OnSelect: =Navigate('Timesheet Details Approvals')
+            Text: =ThisItem.DisplayName
+            Width: =257
+            X: =85
+            Y: =21
             ZIndex: =4
+
+        Label4_1 As label:
+            OnSelect: =Navigate('Timesheet Details Approvals')
+            Text: =ThisItem.Mail
+            Width: =277
+            X: =85
+            Y: =64
+            ZIndex: =5
 
     txt_TimesheetApproval_Search As text:
         BorderColor: =RGBA(219, 219, 219, 1)
@@ -80,11 +76,4 @@
         X: =33
         Y: =120
         ZIndex: =3
-
-    Button1 As button:
-        OnSelect: =colAll_Users
-        Text: ="Button"
-        X: =40
-        Y: =40
-        ZIndex: =4
 

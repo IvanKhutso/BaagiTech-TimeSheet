@@ -11,7 +11,9 @@
                 Timesheet;
                 txt_TimesheetApproval_Search.Text; "EmployeeEmail")*/
             
-                Search(ivan,txt_TimesheetApproval_Search.Text,"GivenName")
+            Search(colAll_Users,
+                txt_TimesheetApproval_Search.Text,"GivenName"
+                  )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -80,7 +82,7 @@
         ZIndex: =3
 
     Button1 As button:
-        OnSelect: =ClearCollect(ivan,Office365Users.SearchUser())
+        OnSelect: =colAll_Users
         Text: ="Button"
         X: =40
         Y: =40

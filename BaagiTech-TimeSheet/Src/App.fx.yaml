@@ -19,6 +19,7 @@ App As appinfo:
                 Logo: Icon.Cars,
                 Screen: 'Travel Claim'
             });
+            ClearCollect(colAll_Users,Office365Users.SearchUser());
             Set(varSelectedTab,1)
     Theme: =PowerAppsTheme
 

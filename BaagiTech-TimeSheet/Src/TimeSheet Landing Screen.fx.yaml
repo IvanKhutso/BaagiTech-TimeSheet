@@ -18,51 +18,6 @@
         Y: =236
         ZIndex: =3
 
-        icn_TimesheetApprovals_Backround_1 As rectangle:
-            Fill: =RGBA(219, 219, 219, 1)
-            Height: =129
-            Width: =442
-            ZIndex: =1
-
-        lbl_TimesheetApprovals_Name_1 As label:
-            Font: =Font.Georgia
-            FontWeight: =FontWeight.Semibold
-            Height: =46
-            Size: =16
-            Text: |-
-                ="Task : " 
-            Width: =96
-            Y: =15
-            ZIndex: =2
-
-        lbl_TimesheetApprovals_Email_1 As label:
-            Font: =Font.Georgia
-            FontWeight: =FontWeight.Semibold
-            Height: =46
-            Size: =16
-            Text: |-
-                ="Date : " 
-            Width: =85
-            Y: =79
-            ZIndex: =3
-
-        lbl_TimesheetApprovals_GivenName_1 As label:
-            Font: =Font.Georgia
-            Size: =14
-            Text: =ThisItem.Task
-            Width: =324
-            X: =96
-            Y: =21
-            ZIndex: =4
-
-        lbl_TimesheetApprovals_Mail_2 As label:
-            Font: =Font.Georgia
-            Text: =ThisItem.Created
-            Width: =277
-            X: =96
-            Y: =80
-            ZIndex: =7
-
     btn_TimeSheet_AddNew As button:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(173, 216, 230, 1)

@@ -128,7 +128,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 174,
+        "PublishOrderIndex": 165,
         "Rules": [
           {
             "Category": "Data",
@@ -447,7 +447,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 175,
+        "PublishOrderIndex": 166,
         "Rules": [
           {
             "Category": "Data",
@@ -719,7 +719,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 176,
+        "PublishOrderIndex": 167,
         "Rules": [
           {
             "Category": "Data",
@@ -1110,7 +1110,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 177,
+        "PublishOrderIndex": 168,
         "Rules": [
           {
             "Category": "Data",
@@ -1411,7 +1411,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 178,
+        "PublishOrderIndex": 169,
         "Rules": [
           {
             "Category": "Data",
@@ -1719,7 +1719,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Screen Background",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 179,
+        "PublishOrderIndex": 170,
         "Rules": [
           {
             "Category": "Data",

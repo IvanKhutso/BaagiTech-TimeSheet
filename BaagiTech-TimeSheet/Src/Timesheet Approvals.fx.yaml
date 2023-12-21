@@ -41,3 +41,82 @@
         Y: =120
         ZIndex: =3
 
+    "gal_shsghghjds As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =425
+        Items: =Timesheet
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        ShowScrollbar: =false
+        TemplatePadding: =4
+        TemplateSize: =133
+        Width: =1346
+        WrapCount: =3
+        X: =20
+        Y: =236
+        ZIndex: =4
+
+        icn_TimesheetApprovals_Backround_3 As rectangle:
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =133
+            Width: =443
+            ZIndex: =1
+
+        lbl_TimesheetApprovals_Name_4 As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            Size: =16
+            Text: |-
+                ="Name: " 
+            Width: =96
+            Y: =15
+            ZIndex: =2
+
+        lbl_TimesheetApprovals_Email_5 As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            Size: =16
+            Text: |-
+                ="Date: " 
+            Width: =85
+            Y: =53
+            ZIndex: =3
+
+        lbl_TimesheetApprovals_GivenName_2 As label:
+            Font: =Font.Georgia
+            Text: =ThisItem.'Employee Email'
+            Width: =324
+            X: =96
+            Y: =21
+            ZIndex: =4
+
+        lbl_TimesheetApprovals_Mail_8 As label:
+            Font: =Font.Georgia
+            Text: =ThisItem.Created
+            Width: =277
+            X: =96
+            Y: =59
+            ZIndex: =7
+
+        lbl_TimesheetApprovals_Email_6 As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            Size: =16
+            Text: |-
+                ="Status: " 
+            Width: =96
+            Y: =87
+            ZIndex: =8
+
+        lbl_TimesheetApprovals_Mail_9 As label:
+            Color: =If(lbl_TimesheetApprovals_Mail_9.Text = "Approved",RGBA(54, 176, 75, 1),If(lbl_TimesheetApprovals_Mail_9.Text = "Rejected",Color.Red,If(lbl_TimesheetApprovals_Mail_9.Text = "Pending",Color.Blue)))
+            Font: =Font.Georgia
+            Text: =ThisItem.'Approval Status'.Value
+            Width: =277
+            X: =96
+            Y: =93
+            ZIndex: =9
+

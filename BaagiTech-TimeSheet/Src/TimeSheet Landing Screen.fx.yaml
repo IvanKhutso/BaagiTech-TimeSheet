@@ -1,0 +1,33 @@
+"'TimeSheet Landing Screen' As screen":
+
+    "cmp_TimeSheet_Landing As 'Screen Background'":
+        ZIndex: =2
+
+    "gal_TimeSheetLanding As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =425
+        Items: =Timesheet
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        ShowScrollbar: =false
+        TemplatePadding: =4
+        TemplateSize: =133
+        Width: =1346
+        WrapCount: =3
+        X: =20
+        Y: =236
+        ZIndex: =3
+
+    btn_TimeSheet_AddNew As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        Height: =32
+        OnSelect: |-
+            =Navigate('Time Sheet');
+            Transition.Pop
+        Text: ="Add New"
+        X: =1199
+        Y: =197
+        ZIndex: =4
+

@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 1,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -117,7 +117,7 @@
     "ManualOfflineProfileId": "",
     "Name": "TimeSheee",
     "OriginatingVersion": "1.336",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 2,
     "ShowStatusBar": false
   },
   "PublishInfo": {
@@ -132,7 +132,10 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "TimeSheet Landing Screen",
+    "TravelClaim Landing Screen",
     "Time Sheet",
+    "Leave Status",
     "Leave Application",
     "Travel Claim",
     "Manager",

@@ -1,12 +1,223 @@
 "'Timesheet Details Approvals' As screen":
 
-    "'Screen Background_1' As 'Screen Background'":
+    "cmp_TimesheetDetails_Background As 'Screen Background'":
 
-    Icon3 As icon.BackArrow:
+    "gal_TimeshetDetails_CheckTasks As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        BorderColor: =RGBA(255, 255, 255, 1)
+        DelayItemLoading: =true
+        Height: =327
+        Items: =Filter(Timesheet,'Employee Email' = varEmployeeRecord.Mail && 'Approval Status'.Value = "Pending")
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        ShowNavigation: =true
+        ShowScrollbar: =false
+        TemplateSize: =60
+        Width: =1305
+        X: =30
+        Y: =188
+        ZIndex: =1
+
+        Rectangle1 As rectangle:
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =60
+            OnSelect: =Select(Parent)
+            Width: =1295
+            ZIndex: =1
+
+        lbl_TimesheetDetails_HoursWork As label:
+            Align: =Align.Center
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =58
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Total_Hours
+            Width: =67
+            X: =865
+            Y: =1
+            ZIndex: =2
+
+        cbx_TimesheetDetails_Task As checkbox:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            CheckboxBorderColor: =RGBA(166, 166, 166, 1)
+            Default: =cbx_TimesheetDetails_AllTasks.Value
+            Font: =Font.Georgia
+            Height: =58
+            OnCheck: |-
+                =UpdateIf(Timesheet,ID = ThisItem.ID,{'Approval Status':{Value:"Approved"}})
+            Text: =""
+            Visible: =If(Label6.Text = "Approved",false,true)
+            Width: =68
+            X: =1227
+            Y: =2
+            ZIndex: =3
+
+        Label3 As label:
+            Height: =59
+            OnSelect: =Select(Parent)
+            Size: =12
+            Text: =ThisItem.Task
+            Width: =648
+            Y: =1
+            ZIndex: =4
+
+        Label4 As label:
+            Height: =58
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Date
+            Width: =171
+            X: =648
+            Y: =1
+            ZIndex: =5
+
+        Label6 As label:
+            Align: =Align.Center
+            Color: =If(Label6.Text = "Approved",Color.ForestGreen,Color.Blue)
+            Height: =57
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Approval Status'.Value
+            X: =1004
+            Y: =2
+            ZIndex: =6
+
+    icn_TimesheetDetails_Back As icon.BackArrow:
         Color: =RGBA(0, 0, 0, 1)
         Icon: =Icon.BackArrow
-        OnSelect: =Back()
+        OnSelect: =Navigate('Timesheet Approvals')
         X: =30
         Y: =20
         ZIndex: =2
+
+    cbx_TimesheetDetails_AllTasks As checkbox:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        CheckboxBorderColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.Georgia
+        Height: =52
+        OnCheck: =
+        OnUncheck: =cbx_TimesheetDetails_Task.Value
+        Text: ="Check All Tasks"
+        Width: =232
+        X: =30
+        Y: =110
+        ZIndex: =3
+
+    lbl_TimesheetDetails_Action As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Text: ="Action"
+        Width: =83
+        X: =1252
+        Y: =160
+        ZIndex: =4
+
+    lbl_TimesheetDetails_HoursWorked As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =31
+        Text: ="Hours Worked"
+        Width: =132
+        X: =886
+        Y: =157
+        ZIndex: =5
+
+    txt_TimesheetDetails_Reason As text:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Default: =""
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =102
+        Width: =813
+        X: =30
+        Y: =558
+        ZIndex: =6
+
+    lbl_TimesheetDetails_Reason As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Text: ="Reason"
+        X: =30
+        Y: =524
+        ZIndex: =7
+
+    lbl_TimeSheetDeails_TotalHrs As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Text: ="Total Hours"
+        X: =886
+        Y: =524
+        ZIndex: =8
+
+    lbl_TimesheetDetails_TotalHours As label:
+        Height: =64
+        Text: =
+        Width: =117
+        X: =886
+        Y: =580
+        ZIndex: =9
+
+    btn_TimeSheetDetails_Submit As button:
+        FontWeight: =FontWeight.Bold
+        OnSelect: |-
+            =
+            RemoveIf();ForAll(gal_TimeshetDetails_CheckTasks.AllItems,UpdateIf(Timesheet,ID=ThisRecord.ID,{'Approval Status':{Value:"Approved"}}))
+        Text: ="Submit"
+        X: =1175
+        Y: =604
+        ZIndex: =10
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 0, 0, 1)
+        Height: =77
+        Size: =18
+        Text: ="No record found..."
+        Visible: =If(CountRows(gal_TimeshetDetails_CheckTasks.AllItems)> 0,false,true)
+        Width: =741
+        X: =339
+        Y: =321
+        ZIndex: =11
+
+    lbl_TimesheetDetails_HoursWorked_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =31
+        Text: ="Date"
+        Width: =132
+        X: =691
+        Y: =158
+        ZIndex: =13
+
+    lbl_TimesheetDetails_HoursWorked_3 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =31
+        Text: ="Task"
+        Width: =98
+        X: =48
+        Y: =157
+        ZIndex: =14
+
+    lbl_TimesheetDetails_HoursWorked_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =29
+        Text: ="Approval Status"
+        Width: =151
+        X: =1059
+        Y: =162
+        ZIndex: =15
+
+    Label5 As label:
+        Align: =Align.Center
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =96
+        Size: =30
+        Text: =Sum(Filter(Timesheet,'Employee Email' = varEmployeeRecord.Mail && 'Approval Status'.Value = "Approved").Hours,Hours)
+        Width: =130
+        X: =873
+        Y: =561
+        ZIndex: =16
+
+    Button2 As button:
+        OnSelect: |-
+            =ClearCollect(colTasksRecord,gal_TimeshetDetails_CheckTasks.AllItems);
+            RemoveIf(colTasksRecord,)
+        Text: ="Button"
+        X: =210
+        Y: =44
+        ZIndex: =17
 

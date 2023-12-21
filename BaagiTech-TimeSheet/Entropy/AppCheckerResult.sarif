@@ -74,606 +74,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.gal_TravelClaim_MenuTab"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.gal_TravelClaim_MenuTab"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Date From_DataCard1'.DataCardValue10.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Date From_DataCard1'.DataCardValue10.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Travel Date From_DataCard1'.DataCardValue10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Number Nights_DataCard1'.DataCardValue11.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Number Nights_DataCard1'.DataCardValue11.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Number Nights_DataCard1'.DataCardValue11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Trave Date To_DataCard1'.DataCardValue19.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Trave Date To_DataCard1'.DataCardValue19.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Trave Date To_DataCard1'.DataCardValue19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Km Travelled_DataCard1'.DataCardValue12.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Km Travelled_DataCard1'.DataCardValue12.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Km Travelled_DataCard1'.DataCardValue12"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Claim Date_DataCard1'.DataCardValue14.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Claim Date_DataCard1'.DataCardValue14.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Claim Date_DataCard1'.DataCardValue14"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Additional Costs_DataCard1'.DataCardValue13.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Additional Costs_DataCard1'.DataCardValue13.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Additional Costs_DataCard1'.DataCardValue13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Rate Per Km_DataCard1'.DataCardValue15.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Rate Per Km_DataCard1'.DataCardValue15.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Travel Rate Per Km_DataCard1'.DataCardValue15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.Travel_Reason_DataCard1.DataCardValue17.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.Travel_Reason_DataCard1.DataCardValue17.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.Travel_Reason_DataCard1.DataCardValue17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location From_DataCard1'.DataCardValue20.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location From_DataCard1'.DataCardValue20.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Location From_DataCard1'.DataCardValue20"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location To_DataCard1'.DataCardValue21.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location To_DataCard1'.DataCardValue21.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.'Location To_DataCard1'.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.Attachments_DataCard2.DataCardValue22.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Travel Claim'.Form2.Attachments_DataCard2.DataCardValue22.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Travel Claim",
-                "type": "'Travel Claim'.Form2.Attachments_DataCard2.DataCardValue22"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Leave Application",
-                "type": "'Leave Application'.gal_applyLeave_MenuTab"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Leave Application",
-                "type": "'Leave Application'.gal_applyLeave_MenuTab"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.Form1.'Start Date_DataCard1'.DataCardValue6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.Form1.'Start Date_DataCard1'.DataCardValue6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Leave Application",
-                "type": "'Leave Application'.Form1.'Start Date_DataCard1'.DataCardValue6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.Form1.'Leave Type_DataCard1'.DataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.Form1.'Leave Type_DataCard1'.DataCardValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Leave Application",
-                "type": "'Leave Application'.Form1.'Leave Type_DataCard1'.DataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.Form1.'End Date_DataCard1'.DataCardValue7.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.Form1.'End Date_DataCard1'.DataCardValue7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Leave Application",
-                "type": "'Leave Application'.Form1.'End Date_DataCard1'.DataCardValue7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.Form1.Days_DataCard1.DataCardValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.Form1.Days_DataCard1.DataCardValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Leave Application",
-                "type": "'Leave Application'.Form1.Days_DataCard1.DataCardValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Leave Application'.Form1.Attachments_DataCard1.DataCardValue8.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Leave Application'.Form1.Attachments_DataCard1.DataCardValue8.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Leave Application",
-                "type": "'Leave Application'.Form1.Attachments_DataCard1.DataCardValue8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Leave Status'.Gallery4_2.AccessibleLabel"
                 }
               ],
@@ -1574,19 +974,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals"
               }
             }
           ],
@@ -1604,19 +1004,319 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.icn_TimesheetApprovals_Backround_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.icn_TimesheetApprovals_Backround_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.icn_TimesheetApprovals_Backround_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.icn_TimesheetApprovals_Backround_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.icn_TimesheetApprovals_Backround_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.icn_TimesheetApprovals_Backround_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Name_4.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Name_4.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Name_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Name_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Name_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Name_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_GivenName_2.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_GivenName_2.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_GivenName_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_GivenName_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_GivenName_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_GivenName_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Email_5.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Email_5.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Email_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Email_5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Email_5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Email_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Mail_8.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Mail_8.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Mail_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Mail_8.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Mail_8.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Approvals",
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals.lbl_TimesheetApprovals_Mail_8"
               }
             }
           ],
@@ -1778,6 +1478,396 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.gal_TravelClaim_MenuTab"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.gal_TravelClaim_MenuTab.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.gal_TravelClaim_MenuTab"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Date From_DataCard1'.DataCardValue10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Date From_DataCard1'.DataCardValue10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Travel Date From_DataCard1'.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Number Nights_DataCard1'.DataCardValue11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Number Nights_DataCard1'.DataCardValue11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Number Nights_DataCard1'.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Trave Date To_DataCard1'.DataCardValue19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Trave Date To_DataCard1'.DataCardValue19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Trave Date To_DataCard1'.DataCardValue19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Km Travelled_DataCard1'.DataCardValue12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Km Travelled_DataCard1'.DataCardValue12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Km Travelled_DataCard1'.DataCardValue12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Claim Date_DataCard1'.DataCardValue14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Claim Date_DataCard1'.DataCardValue14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Claim Date_DataCard1'.DataCardValue14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Additional Costs_DataCard1'.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Additional Costs_DataCard1'.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Additional Costs_DataCard1'.DataCardValue13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Rate Per Km_DataCard1'.DataCardValue15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Travel Rate Per Km_DataCard1'.DataCardValue15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Travel Rate Per Km_DataCard1'.DataCardValue15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.Travel_Reason_DataCard1.DataCardValue17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.Travel_Reason_DataCard1.DataCardValue17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.Travel_Reason_DataCard1.DataCardValue17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location From_DataCard1'.DataCardValue20.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location From_DataCard1'.DataCardValue20.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Location From_DataCard1'.DataCardValue20"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location To_DataCard1'.DataCardValue21.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.'Location To_DataCard1'.DataCardValue21.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.'Location To_DataCard1'.DataCardValue21"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.Attachments_DataCard2.DataCardValue22.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Travel Claim'.Form2.Attachments_DataCard2.DataCardValue22.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Travel Claim",
+                "type": "'Travel Claim'.Form2.Attachments_DataCard2.DataCardValue22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -2264,19 +2354,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.AccessibleLabel"
+                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.AccessibleLabel",
+                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds"
+                "module": "Leave Application",
+                "type": "'Leave Application'.gal_applyLeave_MenuTab"
               }
             }
           ],
@@ -2294,19 +2384,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.TabIndex"
+                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.TabIndex",
+                  "fullyQualifiedName": "'Leave Application'.gal_applyLeave_MenuTab.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds"
+                "module": "Leave Application",
+                "type": "'Leave Application'.gal_applyLeave_MenuTab"
               }
             }
           ],
@@ -2324,19 +2414,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.icn_TimesheetApprovals_Backround_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Leave Application'.Form1.'Start Date_DataCard1'.DataCardValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.icn_TimesheetApprovals_Backround_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Leave Application'.Form1.'Start Date_DataCard1'.DataCardValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.icn_TimesheetApprovals_Backround_3"
+                "module": "Leave Application",
+                "type": "'Leave Application'.Form1.'Start Date_DataCard1'.DataCardValue6"
               }
             }
           ],
@@ -2354,19 +2444,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.icn_TimesheetApprovals_Backround_3.TabIndex"
+                  "fullyQualifiedName": "'Leave Application'.Form1.'Leave Type_DataCard1'.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.icn_TimesheetApprovals_Backround_3.TabIndex",
+                  "fullyQualifiedName": "'Leave Application'.Form1.'Leave Type_DataCard1'.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.icn_TimesheetApprovals_Backround_3"
+                "member": "AccessibleLabel",
+                "module": "Leave Application",
+                "type": "'Leave Application'.Form1.'Leave Type_DataCard1'.DataCardValue2"
               }
             }
           ],
@@ -2376,27 +2466,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Name_4.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Leave Application'.Form1.'End Date_DataCard1'.DataCardValue7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Name_4.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Leave Application'.Form1.'End Date_DataCard1'.DataCardValue7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Name_4"
+                "member": "AccessibleLabel",
+                "module": "Leave Application",
+                "type": "'Leave Application'.Form1.'End Date_DataCard1'.DataCardValue7"
               }
             }
           ],
@@ -2406,27 +2496,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Name_4.TabIndex"
+                  "fullyQualifiedName": "'Leave Application'.Form1.Days_DataCard1.DataCardValue3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Name_4.TabIndex",
+                  "fullyQualifiedName": "'Leave Application'.Form1.Days_DataCard1.DataCardValue3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Name_4"
+                "member": "AccessibleLabel",
+                "module": "Leave Application",
+                "type": "'Leave Application'.Form1.Days_DataCard1.DataCardValue3"
               }
             }
           ],
@@ -2436,27 +2526,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_GivenName_2.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Leave Application'.Form1.Attachments_DataCard1.DataCardValue8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_GivenName_2.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Leave Application'.Form1.Attachments_DataCard1.DataCardValue8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_GivenName_2"
+                "member": "AccessibleLabel",
+                "module": "Leave Application",
+                "type": "'Leave Application'.Form1.Attachments_DataCard1.DataCardValue8"
               }
             }
           ],
@@ -2466,278 +2556,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_GivenName_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_GivenName_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_GivenName_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_5.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_5.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_8.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_8.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_8.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_8.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_6.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_6.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_6.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_6.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Email_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_9.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_9.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_9.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_9.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.gal_shsghghjds.lbl_TimesheetApprovals_Mail_9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [

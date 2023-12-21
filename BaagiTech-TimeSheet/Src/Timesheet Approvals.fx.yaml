@@ -31,7 +31,7 @@
         Label3 As label:
             FontWeight: =FontWeight.Semibold
             Height: =46
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate('Timesheet Details Approvals')
             Text: |-
                 ="Name: " 
             Width: =85
@@ -41,7 +41,7 @@
         Label3_2 As label:
             FontWeight: =FontWeight.Semibold
             Height: =46
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate('Timesheet Details Approvals')
             Text: |-
                 ="Email: " 
             Width: =85

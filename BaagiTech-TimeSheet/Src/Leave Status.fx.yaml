@@ -1,9 +1,9 @@
 "'Leave Status' As screen":
 
-    "cmp_TimeSheet_Landing_1 As 'Screen Background'":
+    "cmp_LeaveStatus As 'Screen Background'":
         ZIndex: =2
 
-    "Gallery4_2 As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
+    "gal_LeaveStatus As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
         DelayItemLoading: =true
         Fill: =RGBA(250, 250, 250, 1)
         Height: =487
@@ -21,8 +21,8 @@
 
         icn_TimesheetApprovals_Backround_2 As rectangle:
             Fill: =RGBA(219, 219, 219, 1)
-            Height: =133
-            Width: =443
+            Height: =130
+            Width: =440
             X: =0.3333333333333144
             ZIndex: =1
 
@@ -105,7 +105,7 @@
             Y: =93
             ZIndex: =9
 
-    btn_TimeSheet_Submit_3 As button:
+    btn_LeaveStatus_AddNew As button:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(173, 216, 230, 1)
         Font: =Font.Georgia

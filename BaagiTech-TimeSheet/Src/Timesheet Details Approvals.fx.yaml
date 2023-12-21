@@ -6,7 +6,7 @@
         BorderColor: =RGBA(255, 255, 255, 1)
         DelayItemLoading: =true
         Height: =355
-        Items: =Timesheet
+        Items: =Filter(Timesheet,'Employee Number' = Text(varEmployeeRecord.Mail))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         ShowNavigation: =true

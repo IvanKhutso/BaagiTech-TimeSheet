@@ -33,7 +33,8 @@
         icn_TimesheetApprovals_Backround_3 As rectangle:
             Fill: =RGBA(219, 219, 219, 1)
             Height: =133
-            Width: =443
+            OnSelect: =Navigate('Timesheet Details Approvals')
+            Width: =420
             ZIndex: =1
 
         lbl_TimesheetApprovals_Name_4 As label:
@@ -60,16 +61,18 @@
 
         lbl_TimesheetApprovals_GivenName_2 As label:
             Font: =Font.Georgia
+            OnSelect: =Navigate('Timesheet Details Approvals');Set(varEmployeeRecord,ThisItem)
             Text: =ThisItem.DisplayName
-            Width: =347
+            Width: =324
             X: =96
             Y: =13
             ZIndex: =4
 
         lbl_TimesheetApprovals_Mail_8 As label:
             Font: =Font.Georgia
+            OnSelect: =Navigate('Timesheet Details Approvals')
             Text: =ThisItem.Mail
-            Width: =347
+            Width: =324
             X: =96
             Y: =59
             ZIndex: =7

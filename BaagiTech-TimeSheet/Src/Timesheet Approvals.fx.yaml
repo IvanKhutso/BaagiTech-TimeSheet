@@ -18,7 +18,7 @@
     "gal_TimesheetApprovals As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =425
-        Items: =colAll_Users
+        Items: =Search(colAll_Users,txt_TimesheetApproval_Search.Text,"DisplayName")
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         ShowScrollbar: =false
@@ -33,7 +33,7 @@
         icn_TimesheetApprovals_Backround_3 As rectangle:
             Fill: =RGBA(219, 219, 219, 1)
             Height: =133
-            OnSelect: =Navigate('Timesheet Details Approvals')
+            OnSelect: =Navigate('Timesheet Details Approvals');Set(varEmployeeRecord,ThisItem)
             Width: =420
             ZIndex: =1
 
@@ -70,7 +70,7 @@
 
         lbl_TimesheetApprovals_Mail_8 As label:
             Font: =Font.Georgia
-            OnSelect: =Navigate('Timesheet Details Approvals')
+            OnSelect: =Navigate('Timesheet Details Approvals');Set(varEmployeeRecord,ThisItem)
             Text: =ThisItem.Mail
             Width: =324
             X: =96

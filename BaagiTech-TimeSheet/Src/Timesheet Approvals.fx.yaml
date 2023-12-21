@@ -21,6 +21,13 @@
         Y: =191
         ZIndex: =1
 
+        Label1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.City
+            X: =3
+            Y: =9
+            ZIndex: =1
+
     txt_TimesheetApproval_Search As text:
         BorderColor: =RGBA(219, 219, 219, 1)
         Default: =""

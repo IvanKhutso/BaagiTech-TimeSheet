@@ -1543,6 +1543,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.TextInput1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Timesheet Details Approvals",
+                "type": "'Timesheet Details Approvals'.TextInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Travel Claim'.cmp_TravelClaim_Background.HeaderTitle"
                 }
               ],

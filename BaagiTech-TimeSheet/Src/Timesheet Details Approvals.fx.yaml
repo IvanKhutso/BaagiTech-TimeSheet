@@ -17,16 +17,15 @@
         Y: =183
         ZIndex: =1
 
-        cbx_TimesheetDetails_Task As checkbox:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            CheckboxBorderColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.Georgia
+        lbl_TimesheetDetails_Tasks As label:
+            Fill: =RGBA(219, 219, 219, 1)
             Height: =58
-            Text: =""
-            Width: =68
-            X: =1224
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Task
+            Width: =1300
+            X: =4
             Y: =11
-            ZIndex: =5
+            ZIndex: =1
 
         lbl_TimesheetDetails_HoursWork As label:
             Fill: =RGBA(219, 219, 219, 1)
@@ -36,17 +35,18 @@
             Width: =67
             X: =1060
             Y: =11
-            ZIndex: =6
+            ZIndex: =2
 
-        lbl_TimesheetDetails_Tasks As label:
-            Fill: =RGBA(219, 219, 219, 1)
+        cbx_TimesheetDetails_Task As checkbox:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            CheckboxBorderColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.Georgia
             Height: =58
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Task
-            Width: =988
-            X: =4
+            Text: =""
+            Width: =68
+            X: =1224
             Y: =11
-            ZIndex: =7
+            ZIndex: =3
 
     icn_TimesheetDetails_Back As icon.BackArrow:
         Color: =RGBA(0, 0, 0, 1)

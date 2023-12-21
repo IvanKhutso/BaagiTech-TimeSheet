@@ -21,14 +21,14 @@
         Y: =191
         ZIndex: =1
 
-        Rectangle2 As rectangle:
+        icn_TimesheetApprovals_Backround As rectangle:
             Fill: =RGBA(219, 219, 219, 1)
             Height: =132
             OnSelect: =Navigate('Timesheet Details Approvals')
             Width: =409
             ZIndex: =1
 
-        Label3 As label:
+        lbl_TimesheetApprovals_Name As label:
             FontWeight: =FontWeight.Semibold
             Height: =46
             OnSelect: =Navigate('Timesheet Details Approvals')
@@ -38,7 +38,7 @@
             Y: =15
             ZIndex: =2
 
-        Label3_2 As label:
+        lbl_TimesheetApprovals_Email As label:
             FontWeight: =FontWeight.Semibold
             Height: =46
             OnSelect: =Navigate('Timesheet Details Approvals')
@@ -48,7 +48,7 @@
             Y: =61
             ZIndex: =3
 
-        Label4 As label:
+        lbl_TimesheetApprovals_GivenName As label:
             OnSelect: =Navigate('Timesheet Details Approvals')
             Text: =ThisItem.DisplayName
             Width: =257
@@ -56,7 +56,7 @@
             Y: =21
             ZIndex: =4
 
-        Label4_1 As label:
+        lbl_TimesheetApprovals_Mail As label:
             OnSelect: =Navigate('Timesheet Details Approvals')
             Text: =ThisItem.Mail
             Width: =277

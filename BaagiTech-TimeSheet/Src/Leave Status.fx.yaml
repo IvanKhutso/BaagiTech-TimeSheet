@@ -1,0 +1,120 @@
+"'Leave Status' As screen":
+
+    "cmp_TimeSheet_Landing_1 As 'Screen Background'":
+        ZIndex: =2
+
+    "Gallery4_2 As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
+        DelayItemLoading: =true
+        Fill: =RGBA(250, 250, 250, 1)
+        Height: =487
+        Items: =Leave
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        ShowScrollbar: =false
+        TemplatePadding: =4
+        TemplateSize: =133
+        Width: =1346
+        WrapCount: =3
+        X: =20
+        Y: =148
+        ZIndex: =3
+
+        icn_TimesheetApprovals_Backround_2 As rectangle:
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =133
+            Width: =443
+            X: =0.3333333333333144
+            ZIndex: =1
+
+        lbl_TimesheetApprovals_Name_2 As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            Size: =16
+            Text: |-
+                ="Type: " 
+            Width: =96
+            Y: =58
+            ZIndex: =2
+
+        lbl_TimesheetApprovals_Email_2 As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            Size: =16
+            Text: |-
+                ="Start Date: " 
+            Width: =142
+            ZIndex: =3
+
+        lbl_TimesheetApprovals_Mail_3 As label:
+            Font: =Font.Georgia
+            Size: =16
+            Text: =ThisItem.'Start Date'
+            Width: =277
+            X: =142
+            ZIndex: =4
+
+        lbl_TimesheetApprovals_Email_3 As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            Size: =16
+            Text: |-
+                ="No Of Days:" 
+            Width: =142
+            Y: =29
+            ZIndex: =5
+
+        lbl_TimesheetApprovals_Mail_4 As label:
+            Font: =Font.Georgia
+            Size: =16
+            Text: =ThisItem.Days
+            Width: =277
+            X: =142
+            Y: =29
+            ZIndex: =6
+
+        lbl_TimesheetApprovals_Name_3 As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =34
+            Size: =16
+            Text: |-
+                ="Status: " 
+            Width: =96
+            Y: =94
+            ZIndex: =7
+
+        lbl_TimesheetApprovals_Mail_5 As label:
+            Font: =Font.Georgia
+            Size: =16
+            Text: =ThisItem.'Leave Type'.Value
+            Width: =277
+            X: =142
+            Y: =61
+            ZIndex: =8
+
+        lbl_TimesheetApprovals_Mail_6 As label:
+            Color: =If(lbl_TimesheetApprovals_Mail_6.Text = "Approved",RGBA(54, 176, 75, 1),If(lbl_TimesheetApprovals_Mail_6.Text = "Rejected",Color.Red,If(lbl_TimesheetApprovals_Mail_6.Text = "Pending",Color.Blue)))
+            Font: =Font.Georgia
+            Size: =16
+            Text: =ThisItem.'Approval Status'.Value
+            Width: =277
+            X: =142
+            Y: =93
+            ZIndex: =9
+
+    btn_TimeSheet_Submit_3 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        Height: =32
+        OnSelect: |-
+            =Navigate('Leave Application');
+            Transition.Pop
+        Text: ="Add New"
+        X: =1192
+        Y: =104
+        ZIndex: =4
+

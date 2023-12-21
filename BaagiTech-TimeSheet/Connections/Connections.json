@@ -40,7 +40,7 @@
     "dependents": [],
     "id": "3b89a94e-b609-46a6-b04a-765f839d1040"
   },
-  "687bb0f3-c815-49b5-a4f4-30d0184eb7ab": {
+  "b24c5b7b-8aff-4b14-947c-99861bb666b9": {
     "connectionRef": {
       "displayName": "Office 365 Users",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365users/icon.png",
@@ -52,6 +52,6 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "687bb0f3-c815-49b5-a4f4-30d0184eb7ab"
+    "id": "b24c5b7b-8aff-4b14-947c-99861bb666b9"
   }
 }

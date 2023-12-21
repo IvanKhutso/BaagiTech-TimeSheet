@@ -132,12 +132,13 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "TimeSheet Landing Screen",
     "Time Sheet",
+    "Leave Status",
     "Leave Application",
     "Travel Claim",
     "Manager",
     "Timesheet Approvals",
-    "Timesheet Details Approvals",
-    "Screen1"
+    "Timesheet Details Approvals"
   ]
 }

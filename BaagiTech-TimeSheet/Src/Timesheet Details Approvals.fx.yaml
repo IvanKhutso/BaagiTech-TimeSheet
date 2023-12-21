@@ -86,7 +86,7 @@
         Y: =131
         ZIndex: =5
 
-    TextInput1 As text:
+    txt_TimesheetDetails_Reason As text:
         BorderColor: =RGBA(255, 255, 255, 1)
         Default: =""
         Fill: =RGBA(219, 219, 219, 1)
@@ -96,7 +96,7 @@
         Y: =558
         ZIndex: =6
 
-    Label1 As label:
+    lbl_TimesheetDetails_Reason As label:
         Font: =Font.Georgia
         FontWeight: =FontWeight.Semibold
         Text: ="Reason"
@@ -104,7 +104,7 @@
         Y: =524
         ZIndex: =7
 
-    Label2 As label:
+    lbl_TimeSheetDeails_TotalHrs As label:
         Font: =Font.Georgia
         FontWeight: =FontWeight.Semibold
         Text: ="Total Hours"
@@ -112,13 +112,13 @@
         Y: =524
         ZIndex: =8
 
-    Label3 As label:
+    lbl_TimesheetDetails_TotalHours As label:
         Text: =
         X: =886
         Y: =580
         ZIndex: =9
 
-    Button1 As button:
+    btn_TimeSheetDetails_Submit As button:
         Text: ="Submit"
         X: =1175
         Y: =620

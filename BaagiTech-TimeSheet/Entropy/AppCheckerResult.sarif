@@ -1543,19 +1543,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Details Approvals'.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.txt_TimesheetDetails_Reason.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Details Approvals'.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.txt_TimesheetDetails_Reason.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Details Approvals",
-                "type": "'Timesheet Details Approvals'.TextInput1"
+                "type": "'Timesheet Details Approvals'.txt_TimesheetDetails_Reason"
               }
             }
           ],

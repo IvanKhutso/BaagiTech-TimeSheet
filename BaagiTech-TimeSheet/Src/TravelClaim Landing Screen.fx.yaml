@@ -1,0 +1,95 @@
+"'TravelClaim Landing Screen' As screen":
+
+    "'cmp_TravelClaim _Landing' As 'Screen Background'":
+        ZIndex: =2
+
+    "gal_TravelClaimLanding As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =425
+        Items: =Travel
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        ShowScrollbar: =false
+        TemplatePadding: =4
+        TemplateSize: =133
+        Width: =1346
+        WrapCount: =3
+        X: =20
+        Y: =236
+        ZIndex: =3
+
+        icn_TravelClaim_Background As rectangle:
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =130
+            Width: =440
+            ZIndex: =1
+
+        lbl_TravelClaim_ClaimDate As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Height: =46
+            Size: =16
+            Text: |-
+                ="Claim Date : " 
+            Width: =152
+            ZIndex: =2
+
+        lbl_TravelClaim_Reasonlbl As label:
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Size: =16
+            Text: |-
+                ="Reason : " 
+            Width: =118
+            Y: =51
+            ZIndex: =3
+
+        "'lbl_TravelClaim_ClaimDate..' As label":
+            Font: =Font.Georgia
+            Size: =14
+            Text: =ThisItem.'Claim Date'
+            Width: =267
+            X: =152
+            Y: =3
+            ZIndex: =4
+
+        lbl_TravelClaim_TravReason As label:
+            Font: =Font.Georgia
+            Text: =ThisItem.Travel_Reason
+            Width: =277
+            X: =147
+            Y: =51
+            ZIndex: =7
+
+        "'lbl_TravelClaim_Status:' As label":
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Semibold
+            Size: =16
+            Text: |-
+                ="Status : " 
+            Width: =118
+            Y: =93
+            ZIndex: =8
+
+        lbl_TravelClaiml_Status As label:
+            Color: =If(lbl_TimesheetApprovals_Mail_6.Text = "Approved",RGBA(54, 176, 75, 1),If(lbl_TimesheetApprovals_Mail_6.Text = "Rejected",Color.Red,If(lbl_TimesheetApprovals_Mail_6.Text = "Pending",Color.Blue)))
+            Font: =Font.Georgia
+            Text: =ThisItem.'Approval Status'.Value
+            Width: =277
+            X: =147
+            Y: =93
+            ZIndex: =9
+
+    btn_TravelClaim_AddNew As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(173, 216, 230, 1)
+        Font: =Font.Georgia
+        Height: =32
+        OnSelect: |-
+            =Navigate('Travel Claim');
+            Transition.Pop
+        Text: ="Add New"
+        X: =1199
+        Y: =197
+        ZIndex: =4
+

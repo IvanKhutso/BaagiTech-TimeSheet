@@ -2,7 +2,7 @@
 
     "cmp_TimeSheetApprovals_Background As 'Screen Background'":
 
-    "Gallery4 As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
+    "gal_TimesheetApprovals_Records As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =443
         Items: |-

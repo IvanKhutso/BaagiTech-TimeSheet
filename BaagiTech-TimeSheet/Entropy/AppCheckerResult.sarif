@@ -584,19 +584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records"
               }
             }
           ],
@@ -614,19 +614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records"
               }
             }
           ],
@@ -644,19 +644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.icn_TimesheetApprovals_Backround.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.icn_TimesheetApprovals_Backround.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.icn_TimesheetApprovals_Backround"
               }
             }
           ],
@@ -674,19 +674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Details Approvals'.Icon3.AccessibleLabel"
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.icn_TimesheetDetails_Back.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Details Approvals'.Icon3.AccessibleLabel",
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.icn_TimesheetDetails_Back.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Timesheet Details Approvals",
-                "type": "'Timesheet Details Approvals'.Icon3"
+                "type": "'Timesheet Details Approvals'.icn_TimesheetDetails_Back"
               }
             }
           ],
@@ -704,19 +704,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Details Approvals'.Icon3.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.icn_TimesheetDetails_Back.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Details Approvals'.Icon3.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.icn_TimesheetDetails_Back.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Details Approvals",
-                "type": "'Timesheet Details Approvals'.Icon3"
+                "type": "'Timesheet Details Approvals'.icn_TimesheetDetails_Back"
               }
             }
           ],
@@ -1124,19 +1124,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.icn_TimesheetApprovals_Backround.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.icn_TimesheetApprovals_Backround.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.icn_TimesheetApprovals_Backround"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.icn_TimesheetApprovals_Backround"
               }
             }
           ],
@@ -1154,19 +1154,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_GivenName.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_GivenName"
               }
             }
           ],
@@ -1184,19 +1184,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_GivenName.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_GivenName.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_GivenName"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_GivenName"
               }
             }
           ],
@@ -1214,19 +1214,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Mail.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Mail.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Mail"
               }
             }
           ],
@@ -1244,19 +1244,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Mail.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Mail.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Mail"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Mail"
               }
             }
           ],
@@ -1274,19 +1274,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Email.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Email.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Email"
               }
             }
           ],
@@ -1304,19 +1304,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Email.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Email.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Email"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Email"
               }
             }
           ],
@@ -1334,19 +1334,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Name.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Name.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Name"
               }
             }
           ],
@@ -1364,19 +1364,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.TabIndex"
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Name.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name.TabIndex",
+                  "fullyQualifiedName": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Name.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Timesheet Approvals",
-                "type": "'Timesheet Approvals'.Gallery4.lbl_TimesheetApprovals_Name"
+                "type": "'Timesheet Approvals'.gal_TimesheetApprovals_Records.lbl_TimesheetApprovals_Name"
               }
             }
           ],
@@ -1466,6 +1466,66 @@
                 "member": "TabIndex",
                 "module": "Screen1",
                 "type": "Screen1.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.gal_TimeshetDetails_CheckTasks.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.gal_TimeshetDetails_CheckTasks.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Timesheet Details Approvals",
+                "type": "'Timesheet Details Approvals'.gal_TimeshetDetails_CheckTasks"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.gal_TimeshetDetails_CheckTasks.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Timesheet Details Approvals'.gal_TimeshetDetails_CheckTasks.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Timesheet Details Approvals",
+                "type": "'Timesheet Details Approvals'.gal_TimeshetDetails_CheckTasks"
               }
             }
           ],

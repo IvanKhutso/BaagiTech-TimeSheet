@@ -1,12 +1,86 @@
 "'Timesheet Details Approvals' As screen":
 
-    "'Screen Background_1' As 'Screen Background'":
+    "cmp_TimesheetDetails_Background As 'Screen Background'":
 
-    Icon3 As icon.BackArrow:
+    "gal_TimeshetDetails_CheckTasks As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =267
+        Items: =Timesheet
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =80
+        Width: =1326
+        X: =40
+        Y: =183
+        ZIndex: =1
+
+        cbx_TimesheetDetails_Task As checkbox:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            CheckboxBorderColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.Georgia
+            Height: =58
+            Text: =""
+            Width: =68
+            X: =1224
+            Y: =11
+            ZIndex: =5
+
+        lbl_TimesheetDetails_HoursWork As label:
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =58
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Total Hours'
+            Width: =67
+            X: =1060
+            Y: =11
+            ZIndex: =6
+
+        lbl_TimesheetDetails_Tasks As label:
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =58
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Task'
+            Width: =988
+            X: =4
+            Y: =11
+            ZIndex: =7
+
+    icn_TimesheetDetails_Back As icon.BackArrow:
         Color: =RGBA(0, 0, 0, 1)
         Icon: =Icon.BackArrow
-        OnSelect: =Back()
+        OnSelect: =Navigate('Timesheet Approvals')
         X: =30
         Y: =20
         ZIndex: =2
+
+    cbx_TimesheetDetails_AllTasks As checkbox:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        CheckboxBorderColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.Georgia
+        Height: =72
+        Text: ="Check All Tasks"
+        Width: =232
+        X: =30
+        Y: =111
+        ZIndex: =3
+
+    lbl_TimesheetDetails_Action As label:
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Text: ="Action"
+        Width: =83
+        X: =1252
+        Y: =134
+        ZIndex: =4
+
+    lbl_TimesheetDetails_HoursWorked As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =31
+        Text: ="Hours Worked"
+        Width: =132
+        X: =1080
+        Y: =131
+        ZIndex: =5
 
